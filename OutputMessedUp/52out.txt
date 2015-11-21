@@ -1,0 +1,55 @@
+{
+  "uniqID": "",
+  "order": 0,
+  "rootUID": "2ff90949-0a5f-4fd1-a867-af9a9ad407eb",
+  "origRootUID": "",
+  "scanTime": 1446427539,
+  "objectHash": "d41d8cd98f00b204e9800998ecf8427e",
+  "parent": "",
+  "uuid": "2ff90949-0a5f-4fd1-a867-af9a9ad407eb",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "SHA1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "SHA512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+        "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "ssdeep": "3::"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": [
+        "send_to_fluent (50)",
+        "DISPOSITION_FILE (10)"
+      ],
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 0,
+  "fileType": [],
+  "level": 2,
+  "filename": "/home/wildcat/Lockheed/laikaboss/malware/Lab20-02.exe",
+  "depth": 0,
+  "sourceModule": "",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "SCAN_YARA",
+    "META_HASH",
+    "DISPOSITIONER",
+    "LOG_FLUENT"
+  ]
+}

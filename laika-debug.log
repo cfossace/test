@@ -1,0 +1,1625 @@
+2015-11-08 01:50:30,791 DEBUG SCAN_MODULES: None
+2015-11-08 01:50:30,792 DEBUG PROGRESS_BAR: 1
+2015-11-08 01:50:30,792 DEBUG LOG_RESULT: 0
+2015-11-08 01:50:30,792 DEBUG NUM_PROCS: 8
+2015-11-08 01:50:30,792 DEBUG MAX_BYTES: 10485760
+2015-11-08 01:50:30,793 DEBUG MAX_FILES: 0
+2015-11-08 01:50:30,803 DEBUG Loaded 69 files for scanning
+2015-11-08 01:50:30,804 DEBUG Starting 8 processes
+2015-11-08 01:50:30,829 DEBUG Initializing with config: etc/framework/laikaboss.conf
+2015-11-08 01:50:30,824 DEBUG Initializing with config: etc/framework/laikaboss.conf
+2015-11-08 01:50:30,836 DEBUG Initializing with config: etc/framework/laikaboss.conf
+2015-11-08 01:50:30,855 DEBUG Initializing with config: etc/framework/laikaboss.conf
+2015-11-08 01:50:30,859 DEBUG Parsed option yaradispatchrules with value etc/framework/dispatch.yara
+2015-11-08 01:50:30,860 DEBUG Parsed option yaraconditionalrules with value etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:30,860 DEBUG Parsed option defaultmodulepriority with value 9
+2015-11-08 01:50:30,864 DEBUG Parsed option yaradispatchrules with value etc/framework/dispatch.yara
+2015-11-08 01:50:30,858 DEBUG Initializing with config: etc/framework/laikaboss.conf
+2015-11-08 01:50:30,860 DEBUG Parsed option maxdepth with value 10
+2015-11-08 01:50:30,874 DEBUG Parsed option global_scan_timeout with value 3600
+2015-11-08 01:50:30,875 DEBUG Parsed option global_module_timeout with value 600
+2015-11-08 01:50:30,875 DEBUG Parsed option tempdir with value /dev/shm/laika_tmp
+2015-11-08 01:50:30,876 DEBUG Parsed option yarascanrules with value etc/modules/signatures.yara
+2015-11-08 01:50:30,876 DEBUG Parsed option yaradispositionrules with value etc/modules/disposition.yara
+2015-11-08 01:50:30,876 DEBUG Parsed option logfacility with value LOG_LOCAL0
+2015-11-08 01:50:30,877 DEBUG Parsed option yaradispatchrules with value etc/framework/dispatch.yara
+2015-11-08 01:50:30,878 DEBUG Parsed option yaraconditionalrules with value etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:30,864 DEBUG Parsed option yaraconditionalrules with value etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:30,880 DEBUG Parsed option defaultmodulepriority with value 9
+2015-11-08 01:50:30,880 DEBUG Parsed option maxdepth with value 10
+2015-11-08 01:50:30,880 DEBUG Parsed option global_scan_timeout with value 3600
+2015-11-08 01:50:30,884 DEBUG Parsed option global_module_timeout with value 600
+2015-11-08 01:50:30,885 DEBUG Parsed option tempdir with value /dev/shm/laika_tmp
+2015-11-08 01:50:30,886 DEBUG Parsed option yarascanrules with value etc/modules/signatures.yara
+2015-11-08 01:50:30,886 DEBUG Parsed option yaradispositionrules with value etc/modules/disposition.yara
+2015-11-08 01:50:30,886 DEBUG Parsed option logfacility with value LOG_LOCAL0
+2015-11-08 01:50:30,887 DEBUG Parsed option logidentity with value laikad
+2015-11-08 01:50:30,887 DEBUG Parsed option moduleloglevel with value LOG_INFO
+2015-11-08 01:50:30,887 DEBUG Parsed option scanloglevel with value LOG_INFO
+2015-11-08 01:50:30,887 DEBUG Parsed option modulelogging with value False
+2015-11-08 01:50:30,887 DEBUG Parsed option logresultfromsource with value all
+2015-11-08 01:50:30,878 DEBUG Parsed option defaultmodulepriority with value 9
+2015-11-08 01:50:30,888 DEBUG Parsed option maxdepth with value 10
+2015-11-08 01:50:30,888 DEBUG Parsed option global_scan_timeout with value 3600
+2015-11-08 01:50:30,891 DEBUG Initializing with config: etc/framework/laikaboss.conf
+2015-11-08 01:50:30,868 DEBUG Initializing with config: etc/framework/laikaboss.conf
+2015-11-08 01:50:30,898 DEBUG Parsed option global_module_timeout with value 600
+2015-11-08 01:50:30,898 DEBUG Parsed option tempdir with value /dev/shm/laika_tmp
+2015-11-08 01:50:30,899 DEBUG Parsed option yarascanrules with value etc/modules/signatures.yara
+2015-11-08 01:50:30,899 DEBUG Parsed option yaradispositionrules with value etc/modules/disposition.yara
+2015-11-08 01:50:30,900 DEBUG Parsed option logfacility with value LOG_LOCAL0
+2015-11-08 01:50:30,900 DEBUG Parsed option logidentity with value laikad
+2015-11-08 01:50:30,900 DEBUG Parsed option moduleloglevel with value LOG_INFO
+2015-11-08 01:50:30,900 DEBUG Parsed option scanloglevel with value LOG_INFO
+2015-11-08 01:50:30,905 DEBUG Parsed option yaradispatchrules with value etc/framework/dispatch.yara
+2015-11-08 01:50:30,906 DEBUG Parsed option yaraconditionalrules with value etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:30,906 DEBUG Parsed option defaultmodulepriority with value 9
+2015-11-08 01:50:30,906 DEBUG Parsed option maxdepth with value 10
+2015-11-08 01:50:30,907 DEBUG Parsed option global_scan_timeout with value 3600
+2015-11-08 01:50:30,907 DEBUG Parsed option global_module_timeout with value 600
+2015-11-08 01:50:30,907 DEBUG Parsed option tempdir with value /dev/shm/laika_tmp
+2015-11-08 01:50:30,907 DEBUG Parsed option yarascanrules with value etc/modules/signatures.yara
+2015-11-08 01:50:30,908 DEBUG Parsed option yaradispositionrules with value etc/modules/disposition.yara
+2015-11-08 01:50:30,910 DEBUG Parsed option yaradispatchrules with value etc/framework/dispatch.yara
+2015-11-08 01:50:30,911 DEBUG Parsed option yaraconditionalrules with value etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:30,911 DEBUG Parsed option defaultmodulepriority with value 9
+2015-11-08 01:50:30,911 DEBUG Parsed option maxdepth with value 10
+2015-11-08 01:50:30,911 DEBUG Parsed option global_scan_timeout with value 3600
+2015-11-08 01:50:30,912 DEBUG Parsed option global_module_timeout with value 600
+2015-11-08 01:50:30,912 DEBUG Parsed option tempdir with value /dev/shm/laika_tmp
+2015-11-08 01:50:30,912 DEBUG Parsed option yarascanrules with value etc/modules/signatures.yara
+2015-11-08 01:50:30,905 DEBUG Parsed option logidentity with value laikad
+2015-11-08 01:50:30,913 DEBUG Parsed option moduleloglevel with value LOG_INFO
+2015-11-08 01:50:30,913 DEBUG Parsed option scanloglevel with value LOG_INFO
+2015-11-08 01:50:30,914 DEBUG Parsed option modulelogging with value False
+2015-11-08 01:50:30,914 DEBUG Parsed option logresultfromsource with value all
+2015-11-08 01:50:30,918 DEBUG Parsed option yaradispatchrules with value etc/framework/dispatch.yara
+2015-11-08 01:50:30,918 DEBUG Parsed option yaraconditionalrules with value etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:30,918 DEBUG Parsed option defaultmodulepriority with value 9
+2015-11-08 01:50:30,919 DEBUG Parsed option maxdepth with value 10
+2015-11-08 01:50:30,919 DEBUG Parsed option global_scan_timeout with value 3600
+2015-11-08 01:50:30,919 DEBUG Parsed option global_module_timeout with value 600
+2015-11-08 01:50:30,919 DEBUG Parsed option tempdir with value /dev/shm/laika_tmp
+2015-11-08 01:50:30,920 DEBUG Parsed option yarascanrules with value etc/modules/signatures.yara
+2015-11-08 01:50:30,920 DEBUG Parsed option yaradispositionrules with value etc/modules/disposition.yara
+2015-11-08 01:50:30,894 DEBUG Initializing with config: etc/framework/laikaboss.conf
+2015-11-08 01:50:30,929 DEBUG Parsed option modulelogging with value False
+2015-11-08 01:50:30,929 DEBUG Parsed option logresultfromsource with value all
+2015-11-08 01:50:30,950 DEBUG si_dispatch - Attempting to dispatch - uid: 64ab6e91-89bb-4b3c-8646-d042860f2cb0, filename: malware/Lab13-03.exe, source module: 
+2015-11-08 01:50:30,951 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:30,954 DEBUG si_dispatch - Attempting to dispatch - uid: 6d8aecc0-fb79-4a47-969b-0db96bdf9fc7, filename: malware/Lab18-04.exe, source module: 
+2015-11-08 01:50:30,955 DEBUG Parsed option yaradispositionrules with value etc/modules/disposition.yara
+2015-11-08 01:50:30,956 DEBUG Parsed option logfacility with value LOG_LOCAL0
+2015-11-08 01:50:30,957 DEBUG Parsed option logfacility with value LOG_LOCAL0
+2015-11-08 01:50:30,957 DEBUG Parsed option logidentity with value laikad
+2015-11-08 01:50:30,958 DEBUG Parsed option moduleloglevel with value LOG_INFO
+2015-11-08 01:50:30,962 DEBUG Parsed option yaradispatchrules with value etc/framework/dispatch.yara
+2015-11-08 01:50:30,969 DEBUG Parsed option logidentity with value laikad
+2015-11-08 01:50:30,970 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:30,971 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab18-04.exe'}
+2015-11-08 01:50:30,971 DEBUG util: compiling etc/framework/dispatch.yara for lazy load
+2015-11-08 01:50:30,973 DEBUG Parsed option logfacility with value LOG_LOCAL0
+2015-11-08 01:50:30,974 DEBUG Parsed option moduleloglevel with value LOG_INFO
+2015-11-08 01:50:30,974 DEBUG Parsed option scanloglevel with value LOG_INFO
+2015-11-08 01:50:30,974 DEBUG Parsed option modulelogging with value False
+2015-11-08 01:50:30,975 DEBUG Parsed option logresultfromsource with value all
+2015-11-08 01:50:30,963 DEBUG Parsed option yaraconditionalrules with value etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:30,977 DEBUG Parsed option defaultmodulepriority with value 9
+2015-11-08 01:50:30,977 DEBUG Parsed option maxdepth with value 10
+2015-11-08 01:50:30,978 DEBUG Parsed option global_scan_timeout with value 3600
+2015-11-08 01:50:30,978 DEBUG Parsed option global_module_timeout with value 600
+2015-11-08 01:50:30,978 DEBUG Parsed option tempdir with value /dev/shm/laika_tmp
+2015-11-08 01:50:30,979 DEBUG Parsed option yarascanrules with value etc/modules/signatures.yara
+2015-11-08 01:50:30,979 DEBUG Parsed option yaradispositionrules with value etc/modules/disposition.yara
+2015-11-08 01:50:30,980 DEBUG Parsed option logidentity with value laikad
+2015-11-08 01:50:30,981 DEBUG Parsed option yaradispatchrules with value etc/framework/dispatch.yara
+2015-11-08 01:50:30,981 DEBUG Parsed option yaraconditionalrules with value etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:30,984 DEBUG si_dispatch - Attempting to dispatch - uid: b01e6750-ad01-4576-bc01-18957f1124cd, filename: malware/Lab06-04.exe, source module: 
+2015-11-08 01:50:30,980 DEBUG Parsed option moduleloglevel with value LOG_INFO
+2015-11-08 01:50:30,981 DEBUG Parsed option defaultmodulepriority with value 9
+2015-11-08 01:50:30,985 DEBUG Parsed option maxdepth with value 10
+2015-11-08 01:50:30,985 DEBUG Parsed option global_scan_timeout with value 3600
+2015-11-08 01:50:30,985 DEBUG Parsed option global_module_timeout with value 600
+2015-11-08 01:50:30,952 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab13-03.exe'}
+2015-11-08 01:50:30,987 DEBUG Parsed option scanloglevel with value LOG_INFO
+2015-11-08 01:50:30,987 DEBUG Parsed option modulelogging with value False
+2015-11-08 01:50:30,987 DEBUG Parsed option logresultfromsource with value all
+2015-11-08 01:50:30,986 DEBUG Parsed option tempdir with value /dev/shm/laika_tmp
+2015-11-08 01:50:30,989 DEBUG Parsed option yarascanrules with value etc/modules/signatures.yara
+2015-11-08 01:50:30,989 DEBUG Parsed option yaradispositionrules with value etc/modules/disposition.yara
+2015-11-08 01:50:30,990 DEBUG Parsed option logfacility with value LOG_LOCAL0
+2015-11-08 01:50:30,990 DEBUG Parsed option logidentity with value laikad
+2015-11-08 01:50:30,990 DEBUG Parsed option moduleloglevel with value LOG_INFO
+2015-11-08 01:50:30,990 DEBUG Parsed option scanloglevel with value LOG_INFO
+2015-11-08 01:50:30,991 DEBUG Parsed option scanloglevel with value LOG_INFO
+2015-11-08 01:50:30,991 DEBUG Parsed option modulelogging with value False
+2015-11-08 01:50:30,992 DEBUG Parsed option logresultfromsource with value all
+2015-11-08 01:50:30,993 DEBUG util: compiling etc/framework/dispatch.yara for lazy load
+2015-11-08 01:50:31,001 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,001 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab06-04.exe'}
+2015-11-08 01:50:31,003 DEBUG si_dispatch - Attempting to dispatch - uid: 2c166521-3b83-4a2e-a721-8e94d3d61a68, filename: malware/Lab10-01.sys, source module: 
+2015-11-08 01:50:31,003 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,004 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab10-01.sys'}
+2015-11-08 01:50:31,004 DEBUG util: compiling etc/framework/dispatch.yara for lazy load
+2015-11-08 01:50:30,979 DEBUG Parsed option logfacility with value LOG_LOCAL0
+2015-11-08 01:50:31,005 DEBUG util: compiling etc/framework/dispatch.yara for lazy load
+2015-11-08 01:50:31,010 DEBUG si_dispatch - Attempting to dispatch - uid: 9dba5728-71ac-4763-ac7b-33c11d17fa8b, filename: malware/Lab10-01.exe, source module: 
+2015-11-08 01:50:31,005 DEBUG Parsed option logidentity with value laikad
+2015-11-08 01:50:31,013 DEBUG Parsed option moduleloglevel with value LOG_INFO
+2015-11-08 01:50:31,013 DEBUG Parsed option scanloglevel with value LOG_INFO
+2015-11-08 01:50:31,013 DEBUG Parsed option modulelogging with value False
+2015-11-08 01:50:31,015 DEBUG Parsed option logresultfromsource with value all
+2015-11-08 01:50:31,018 DEBUG si_dispatch - Attempting to dispatch - uid: 916f84dc-6ed1-4453-ba8e-b3a7fc184e4b, filename: malware/Lab03-03.exe, source module: 
+2015-11-08 01:50:31,019 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,019 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab03-03.exe'}
+2015-11-08 01:50:31,019 DEBUG util: compiling etc/framework/dispatch.yara for lazy load
+2015-11-08 01:50:31,023 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 6d8aecc0-fb79-4a47-969b-0db96bdf9fc7, filename malware/Lab18-04.exe with args {}
+2015-11-08 01:50:30,990 DEBUG Parsed option modulelogging with value False
+2015-11-08 01:50:31,025 DEBUG Parsed option logresultfromsource with value all
+2015-11-08 01:50:31,030 DEBUG si_dispatch - Attempting to dispatch - uid: 1c1d9379-0556-4efa-bc60-cae99618a3fa, filename: malware/Lab07-03.dll, source module: 
+2015-11-08 01:50:31,031 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,032 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab07-03.dll'}
+2015-11-08 01:50:31,035 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 64ab6e91-89bb-4b3c-8646-d042860f2cb0, filename malware/Lab13-03.exe with args {}
+2015-11-08 01:50:31,011 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,036 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab10-01.exe'}
+2015-11-08 01:50:31,039 DEBUG si_dispatch - Attempting to dispatch - uid: 186da503-986a-4399-8807-4a0321fa509a, filename: malware/Lab17-03.exe, source module: 
+2015-11-08 01:50:31,039 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,040 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab17-03.exe'}
+2015-11-08 01:50:31,040 DEBUG util: compiling etc/framework/dispatch.yara for lazy load
+2015-11-08 01:50:31,046 DEBUG util: compiling etc/framework/dispatch.yara for lazy load
+2015-11-08 01:50:31,061 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: b01e6750-ad01-4576-bc01-18957f1124cd, filename malware/Lab06-04.exe with args {}
+2015-11-08 01:50:31,064 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 2c166521-3b83-4a2e-a721-8e94d3d61a68, filename malware/Lab10-01.sys with args {}
+2015-11-08 01:50:31,074 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 916f84dc-6ed1-4453-ba8e-b3a7fc184e4b, filename malware/Lab03-03.exe with args {}
+2015-11-08 01:50:31,075 DEBUG util: compiling etc/framework/dispatch.yara for lazy load
+2015-11-08 01:50:31,133 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 9dba5728-71ac-4763-ac7b-33c11d17fa8b, filename malware/Lab10-01.exe with args {}
+2015-11-08 01:50:31,143 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 186da503-986a-4399-8807-4a0321fa509a, filename malware/Lab17-03.exe with args {}
+2015-11-08 01:50:31,145 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 1c1d9379-0556-4efa-bc60-cae99618a3fa, filename malware/Lab07-03.dll with args {}
+2015-11-08 01:50:31,202 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 6d8aecc0-fb79-4a47-969b-0db96bdf9fc7, filename malware/Lab18-04.exe with args {}
+2015-11-08 01:50:31,218 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,218 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,218 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,219 DEBUG util: compiling etc/modules/signatures.yara for lazy load
+2015-11-08 01:50:31,220 DEBUG Module run queue is empty
+2015-11-08 01:50:31,220 DEBUG attempting conditional disposition on malware/Lab18-04.exe with  uID: 6d8aecc0-fb79-4a47-969b-0db96bdf9fc7 parent: 
+2015-11-08 01:50:31,230 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 2c166521-3b83-4a2e-a721-8e94d3d61a68, filename malware/Lab10-01.sys with args {}
+2015-11-08 01:50:31,212 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 64ab6e91-89bb-4b3c-8646-d042860f2cb0, filename malware/Lab13-03.exe with args {}
+2015-11-08 01:50:31,252 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,253 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,253 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab18-04.exe'}
+2015-11-08 01:50:31,232 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: b01e6750-ad01-4576-bc01-18957f1124cd, filename malware/Lab06-04.exe with args {}
+2015-11-08 01:50:31,259 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,259 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,260 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,262 DEBUG util: compiling etc/framework/conditional-dispatch.yara for lazy load
+2015-11-08 01:50:31,252 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,266 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,267 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,264 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,268 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,268 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,269 DEBUG util: compiling etc/modules/signatures.yara for lazy load
+2015-11-08 01:50:31,270 DEBUG Module run queue is empty
+2015-11-08 01:50:31,270 DEBUG attempting conditional disposition on malware/Lab13-03.exe with  uID: 64ab6e91-89bb-4b3c-8646-d042860f2cb0 parent: 
+2015-11-08 01:50:31,271 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,271 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab13-03.exe'}
+2015-11-08 01:50:31,271 DEBUG util: compiling etc/framework/conditional-dispatch.yara for lazy load
+2015-11-08 01:50:31,272 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,275 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 916f84dc-6ed1-4453-ba8e-b3a7fc184e4b, filename malware/Lab03-03.exe with args {}
+2015-11-08 01:50:31,277 DEBUG util: compiling etc/modules/signatures.yara for lazy load
+2015-11-08 01:50:31,279 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,280 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 6d8aecc0-fb79-4a47-969b-0db96bdf9fc7, filename malware/Lab18-04.exe with args {}
+2015-11-08 01:50:31,280 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,284 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 1c1d9379-0556-4efa-bc60-cae99618a3fa, filename malware/Lab07-03.dll with args {}
+2015-11-08 01:50:31,269 DEBUG util: compiling etc/modules/signatures.yara for lazy load
+2015-11-08 01:50:31,287 DEBUG Module run queue is empty
+2015-11-08 01:50:31,288 DEBUG attempting conditional disposition on malware/Lab06-04.exe with  uID: b01e6750-ad01-4576-bc01-18957f1124cd parent: 
+2015-11-08 01:50:31,292 DEBUG Module run queue is empty
+2015-11-08 01:50:31,292 DEBUG attempting conditional disposition on malware/Lab10-01.sys with  uID: 2c166521-3b83-4a2e-a721-8e94d3d61a68 parent: 
+2015-11-08 01:50:31,294 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,295 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab06-04.exe'}
+2015-11-08 01:50:31,297 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,298 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,281 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,300 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,302 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 9dba5728-71ac-4763-ac7b-33c11d17fa8b, filename malware/Lab10-01.exe with args {}
+2015-11-08 01:50:31,302 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,303 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,303 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,303 DEBUG util: compiling etc/framework/conditional-dispatch.yara for lazy load
+2015-11-08 01:50:31,304 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,305 DEBUG util: compiling etc/modules/disposition.yara for lazy load
+2015-11-08 01:50:31,305 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab10-01.sys'}
+2015-11-08 01:50:31,314 DEBUG util: compiling etc/framework/conditional-dispatch.yara for lazy load
+2015-11-08 01:50:31,315 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,315 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,316 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 2c166521-3b83-4a2e-a721-8e94d3d61a68, filename malware/Lab10-01.sys with args {}
+2015-11-08 01:50:31,317 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 6d8aecc0-fb79-4a47-969b-0db96bdf9fc7, filename malware/Lab18-04.exe with args {}
+2015-11-08 01:50:31,319 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,319 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: b01e6750-ad01-4576-bc01-18957f1124cd, filename malware/Lab06-04.exe with args {}
+2015-11-08 01:50:31,320 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,320 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,321 DEBUG util: compiling etc/modules/signatures.yara for lazy load
+2015-11-08 01:50:31,284 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,321 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,322 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,322 DEBUG util: compiling etc/modules/signatures.yara for lazy load
+2015-11-08 01:50:31,323 DEBUG Module run queue is empty
+2015-11-08 01:50:31,323 DEBUG attempting conditional disposition on malware/Lab07-03.dll with  uID: 1c1d9379-0556-4efa-bc60-cae99618a3fa parent: 
+2015-11-08 01:50:31,323 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,307 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 186da503-986a-4399-8807-4a0321fa509a, filename malware/Lab17-03.exe with args {}
+2015-11-08 01:50:31,324 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,273 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,325 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 64ab6e91-89bb-4b3c-8646-d042860f2cb0, filename malware/Lab13-03.exe with args {}
+2015-11-08 01:50:31,298 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,326 DEBUG util: compiling etc/modules/signatures.yara for lazy load
+2015-11-08 01:50:31,327 DEBUG Module run queue is empty
+2015-11-08 01:50:31,327 DEBUG attempting conditional disposition on malware/Lab03-03.exe with  uID: 916f84dc-6ed1-4453-ba8e-b3a7fc184e4b parent: 
+2015-11-08 01:50:31,327 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,328 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab03-03.exe'}
+2015-11-08 01:50:31,328 DEBUG util: compiling etc/framework/conditional-dispatch.yara for lazy load
+2015-11-08 01:50:31,330 DEBUG Module run queue is empty
+2015-11-08 01:50:31,330 DEBUG attempting conditional disposition on malware/Lab10-01.exe with  uID: 9dba5728-71ac-4763-ac7b-33c11d17fa8b parent: 
+2015-11-08 01:50:31,330 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,330 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab10-01.exe'}
+2015-11-08 01:50:31,331 DEBUG util: compiling etc/framework/conditional-dispatch.yara for lazy load
+2015-11-08 01:50:31,332 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,332 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,329 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,334 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,335 DEBUG util: compiling etc/modules/disposition.yara for lazy load
+2015-11-08 01:50:31,336 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 64ab6e91-89bb-4b3c-8646-d042860f2cb0, filename malware/Lab13-03.exe with args {}
+2015-11-08 01:50:31,338 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,338 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,339 DEBUG util: compiling etc/modules/signatures.yara for lazy load
+2015-11-08 01:50:31,342 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,343 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,343 DEBUG util: compiling etc/modules/disposition.yara for lazy load
+2015-11-08 01:50:31,345 DEBUG util: compiling etc/modules/disposition.yara for lazy load
+2015-11-08 01:50:31,346 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: b01e6750-ad01-4576-bc01-18957f1124cd, filename malware/Lab06-04.exe with args {}
+2015-11-08 01:50:31,324 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab07-03.dll'}
+2015-11-08 01:50:31,353 DEBUG util: compiling etc/framework/conditional-dispatch.yara for lazy load
+2015-11-08 01:50:31,354 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,355 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,355 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 1c1d9379-0556-4efa-bc60-cae99618a3fa, filename malware/Lab07-03.dll with args {}
+2015-11-08 01:50:31,356 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,339 DEBUG Module run queue is empty
+2015-11-08 01:50:31,358 DEBUG attempting conditional disposition on malware/Lab17-03.exe with  uID: 186da503-986a-4399-8807-4a0321fa509a parent: 
+2015-11-08 01:50:31,358 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,358 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab17-03.exe'}
+2015-11-08 01:50:31,359 DEBUG util: compiling etc/framework/conditional-dispatch.yara for lazy load
+2015-11-08 01:50:31,362 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 2c166521-3b83-4a2e-a721-8e94d3d61a68, filename malware/Lab10-01.sys with args {}
+2015-11-08 01:50:31,357 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,365 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 916f84dc-6ed1-4453-ba8e-b3a7fc184e4b, filename malware/Lab03-03.exe with args {}
+2015-11-08 01:50:31,366 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,366 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,366 DEBUG util: compiling etc/modules/disposition.yara for lazy load
+2015-11-08 01:50:31,370 DEBUG Module run queue is empty
+2015-11-08 01:50:31,371 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 9dba5728-71ac-4763-ac7b-33c11d17fa8b, filename malware/Lab10-01.exe with args {}
+2015-11-08 01:50:31,372 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,372 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,374 DEBUG si_dispatch - depth: 1, time: 0.0905659198761
+2015-11-08 01:50:31,375 DEBUG si_dispatch - depth: 1, time: 0.450832128525
+2015-11-08 01:50:31,382 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,382 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,383 DEBUG util: compiling etc/modules/disposition.yara for lazy load
+2015-11-08 01:50:31,384 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 1c1d9379-0556-4efa-bc60-cae99618a3fa, filename malware/Lab07-03.dll with args {}
+2015-11-08 01:50:31,360 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,387 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,387 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 186da503-986a-4399-8807-4a0321fa509a, filename malware/Lab17-03.exe with args {}
+2015-11-08 01:50:31,388 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,388 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,390 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 916f84dc-6ed1-4453-ba8e-b3a7fc184e4b, filename malware/Lab03-03.exe with args {}
+2015-11-08 01:50:31,392 DEBUG util: compiling etc/modules/disposition.yara for lazy load
+2015-11-08 01:50:31,399 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 9dba5728-71ac-4763-ac7b-33c11d17fa8b, filename malware/Lab10-01.exe with args {}
+2015-11-08 01:50:31,403 DEBUG Module run queue is empty
+2015-11-08 01:50:31,403 DEBUG si_dispatch - depth: 1, time: 0.0779709815979
+2015-11-08 01:50:31,403 DEBUG si_dispatch - depth: 1, time: 0.47803902626
+2015-11-08 01:50:31,408 DEBUG Module run queue is empty
+2015-11-08 01:50:31,408 DEBUG si_dispatch - depth: 1, time: 0.0886240005493
+2015-11-08 01:50:31,408 DEBUG si_dispatch - depth: 1, time: 0.425979137421
+2015-11-08 01:50:31,411 DEBUG si_dispatch - Attempting to dispatch - uid: 69c4bcf4-46e9-47dc-9b47-f2166c4d9f6a, filename: malware/Lab12-04.exe, source module: 
+2015-11-08 01:50:31,412 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,412 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab12-04.exe'}
+2015-11-08 01:50:31,414 DEBUG Module run queue is empty
+2015-11-08 01:50:31,414 DEBUG si_dispatch - depth: 1, time: 0.0980508327484
+2015-11-08 01:50:31,414 DEBUG si_dispatch - depth: 1, time: 0.438499927521
+2015-11-08 01:50:31,389 DEBUG util: compiling etc/modules/disposition.yara for lazy load
+2015-11-08 01:50:31,419 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 186da503-986a-4399-8807-4a0321fa509a, filename malware/Lab17-03.exe with args {}
+2015-11-08 01:50:31,438 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 69c4bcf4-46e9-47dc-9b47-f2166c4d9f6a, filename malware/Lab12-04.exe with args {}
+2015-11-08 01:50:31,440 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 69c4bcf4-46e9-47dc-9b47-f2166c4d9f6a, filename malware/Lab12-04.exe with args {}
+2015-11-08 01:50:31,440 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,440 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,446 DEBUG si_dispatch - Attempting to dispatch - uid: 03d3f864-c61e-4dc2-885f-0d238d0c16d2, filename: malware/shellcode_launcher.exe, source module: 
+2015-11-08 01:50:31,447 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,447 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/shellcode_launcher.exe'}
+2015-11-08 01:50:31,448 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 03d3f864-c61e-4dc2-885f-0d238d0c16d2, filename malware/shellcode_launcher.exe with args {}
+2015-11-08 01:50:31,448 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,448 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,451 DEBUG Module run queue is empty
+2015-11-08 01:50:31,451 DEBUG si_dispatch - depth: 1, time: 0.0801680088043
+2015-11-08 01:50:31,452 DEBUG si_dispatch - depth: 1, time: 0.442404985428
+2015-11-08 01:50:31,444 DEBUG Module run queue is empty
+2015-11-08 01:50:31,454 DEBUG si_dispatch - depth: 1, time: 0.0885779857635
+2015-11-08 01:50:31,456 DEBUG si_dispatch - Attempting to dispatch - uid: dc6122e9-2e13-4b5d-a658-e33c747dc16d, filename: malware/Lab03-01.exe, source module: 
+2015-11-08 01:50:31,456 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,458 DEBUG Module run queue is empty
+2015-11-08 01:50:31,459 DEBUG si_dispatch - depth: 1, time: 0.103739023209
+2015-11-08 01:50:31,459 DEBUG si_dispatch - depth: 1, time: 0.430055141449
+2015-11-08 01:50:31,461 DEBUG si_dispatch - Attempting to dispatch - uid: 2f8da06d-2194-47bc-bbc9-1a513ca93dfb, filename: malware/Lab01-01.dll, source module: 
+2015-11-08 01:50:31,462 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,462 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab01-01.dll'}
+2015-11-08 01:50:31,463 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 2f8da06d-2194-47bc-bbc9-1a513ca93dfb, filename malware/Lab01-01.dll with args {}
+2015-11-08 01:50:31,454 DEBUG si_dispatch - depth: 1, time: 0.438126087189
+2015-11-08 01:50:31,441 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,468 DEBUG Module run queue is empty
+2015-11-08 01:50:31,456 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab03-01.exe'}
+2015-11-08 01:50:31,471 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: dc6122e9-2e13-4b5d-a658-e33c747dc16d, filename malware/Lab03-01.exe with args {}
+2015-11-08 01:50:31,472 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: dc6122e9-2e13-4b5d-a658-e33c747dc16d, filename malware/Lab03-01.exe with args {}
+2015-11-08 01:50:31,473 DEBUG Module run queue is empty
+2015-11-08 01:50:31,473 DEBUG si_dispatch - depth: 1, time: 0.0859529972076
+2015-11-08 01:50:31,473 DEBUG si_dispatch - depth: 1, time: 0.435871124268
+2015-11-08 01:50:31,469 DEBUG attempting conditional disposition on malware/Lab12-04.exe with  uID: 69c4bcf4-46e9-47dc-9b47-f2166c4d9f6a parent: 
+2015-11-08 01:50:31,479 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,479 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab12-04.exe'}
+2015-11-08 01:50:31,480 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,480 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,483 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,484 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 03d3f864-c61e-4dc2-885f-0d238d0c16d2, filename malware/shellcode_launcher.exe with args {}
+2015-11-08 01:50:31,488 DEBUG si_dispatch - Attempting to dispatch - uid: 6efc4917-767c-4276-ad78-9d69e27e005b, filename: malware/Lab19-03_sc.bin, source module: 
+2015-11-08 01:50:31,488 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,488 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab19-03_sc.bin'}
+2015-11-08 01:50:31,490 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 2f8da06d-2194-47bc-bbc9-1a513ca93dfb, filename malware/Lab01-01.dll with args {}
+2015-11-08 01:50:31,491 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,491 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,491 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,492 DEBUG Module run queue is empty
+2015-11-08 01:50:31,492 DEBUG attempting conditional disposition on malware/Lab01-01.dll with  uID: 2f8da06d-2194-47bc-bbc9-1a513ca93dfb parent: 
+2015-11-08 01:50:31,492 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,492 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab01-01.dll'}
+2015-11-08 01:50:31,493 DEBUG si_dispatch - Attempting to dispatch - uid: c7a1d338-8575-4b9c-90ac-970713b9e430, filename: malware/Lab06-01.exe, source module: 
+2015-11-08 01:50:31,494 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,496 DEBUG si_dispatch - Attempting to dispatch - uid: 11f4d265-09cd-4463-8ba5-deda4b198cc4, filename: malware/Lab13-01.exe, source module: 
+2015-11-08 01:50:31,497 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,497 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,498 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,496 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,499 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab13-01.exe'}
+2015-11-08 01:50:31,500 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 11f4d265-09cd-4463-8ba5-deda4b198cc4, filename malware/Lab13-01.exe with args {}
+2015-11-08 01:50:31,500 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 11f4d265-09cd-4463-8ba5-deda4b198cc4, filename malware/Lab13-01.exe with args {}
+2015-11-08 01:50:31,502 DEBUG Module run queue is empty
+2015-11-08 01:50:31,502 DEBUG attempting conditional disposition on malware/shellcode_launcher.exe with  uID: 03d3f864-c61e-4dc2-885f-0d238d0c16d2 parent: 
+2015-11-08 01:50:31,502 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,503 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/shellcode_launcher.exe'}
+2015-11-08 01:50:31,503 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,503 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,504 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 03d3f864-c61e-4dc2-885f-0d238d0c16d2, filename malware/shellcode_launcher.exe with args {}
+2015-11-08 01:50:31,504 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,504 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,506 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 69c4bcf4-46e9-47dc-9b47-f2166c4d9f6a, filename malware/Lab12-04.exe with args {}
+2015-11-08 01:50:31,506 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,507 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,507 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 69c4bcf4-46e9-47dc-9b47-f2166c4d9f6a, filename malware/Lab12-04.exe with args {}
+2015-11-08 01:50:31,494 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab06-01.exe'}
+2015-11-08 01:50:31,511 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: c7a1d338-8575-4b9c-90ac-970713b9e430, filename malware/Lab06-01.exe with args {}
+2015-11-08 01:50:31,512 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: c7a1d338-8575-4b9c-90ac-970713b9e430, filename malware/Lab06-01.exe with args {}
+2015-11-08 01:50:31,512 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,512 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,514 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 6efc4917-767c-4276-ad78-9d69e27e005b, filename malware/Lab19-03_sc.bin with args {}
+2015-11-08 01:50:31,515 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 6efc4917-767c-4276-ad78-9d69e27e005b, filename malware/Lab19-03_sc.bin with args {}
+2015-11-08 01:50:31,515 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,516 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,516 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,516 DEBUG Module run queue is empty
+2015-11-08 01:50:31,516 DEBUG attempting conditional disposition on malware/Lab19-03_sc.bin with  uID: 6efc4917-767c-4276-ad78-9d69e27e005b parent: 
+2015-11-08 01:50:31,498 DEBUG Module run queue is empty
+2015-11-08 01:50:31,517 DEBUG attempting conditional disposition on malware/Lab03-01.exe with  uID: dc6122e9-2e13-4b5d-a658-e33c747dc16d parent: 
+2015-11-08 01:50:31,520 DEBUG si_dispatch - Attempting to dispatch - uid: 3c1a7814-37dd-4ee4-8d4f-0d1381d8c6ba, filename: malware/Lab06-02.exe, source module: 
+2015-11-08 01:50:31,520 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,522 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,522 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab03-01.exe'}
+2015-11-08 01:50:31,523 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,523 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,523 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: dc6122e9-2e13-4b5d-a658-e33c747dc16d, filename malware/Lab03-01.exe with args {}
+2015-11-08 01:50:31,524 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,524 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,525 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,525 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,526 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 2f8da06d-2194-47bc-bbc9-1a513ca93dfb, filename malware/Lab01-01.dll with args {}
+2015-11-08 01:50:31,526 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,526 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,527 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 2f8da06d-2194-47bc-bbc9-1a513ca93dfb, filename malware/Lab01-01.dll with args {}
+2015-11-08 01:50:31,539 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,540 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,540 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,541 DEBUG Module run queue is empty
+2015-11-08 01:50:31,541 DEBUG attempting conditional disposition on malware/Lab13-01.exe with  uID: 11f4d265-09cd-4463-8ba5-deda4b198cc4 parent: 
+2015-11-08 01:50:31,541 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,542 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab13-01.exe'}
+2015-11-08 01:50:31,542 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,542 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,543 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 11f4d265-09cd-4463-8ba5-deda4b198cc4, filename malware/Lab13-01.exe with args {}
+2015-11-08 01:50:31,543 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,543 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,544 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 11f4d265-09cd-4463-8ba5-deda4b198cc4, filename malware/Lab13-01.exe with args {}
+2015-11-08 01:50:31,521 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab06-02.exe'}
+2015-11-08 01:50:31,546 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 3c1a7814-37dd-4ee4-8d4f-0d1381d8c6ba, filename malware/Lab06-02.exe with args {}
+2015-11-08 01:50:31,546 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 3c1a7814-37dd-4ee4-8d4f-0d1381d8c6ba, filename malware/Lab06-02.exe with args {}
+2015-11-08 01:50:31,547 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,547 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,513 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,554 DEBUG Module run queue is empty
+2015-11-08 01:50:31,517 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,560 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 03d3f864-c61e-4dc2-885f-0d238d0c16d2, filename malware/shellcode_launcher.exe with args {}
+2015-11-08 01:50:31,569 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: dc6122e9-2e13-4b5d-a658-e33c747dc16d, filename malware/Lab03-01.exe with args {}
+2015-11-08 01:50:31,571 DEBUG Module run queue is empty
+2015-11-08 01:50:31,572 DEBUG si_dispatch - depth: 1, time: 0.0911428928375
+2015-11-08 01:50:31,572 DEBUG si_dispatch - depth: 1, time: 0.161556959152
+2015-11-08 01:50:31,576 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,581 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab19-03_sc.bin'}
+2015-11-08 01:50:31,582 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,582 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,583 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 6efc4917-767c-4276-ad78-9d69e27e005b, filename malware/Lab19-03_sc.bin with args {}
+2015-11-08 01:50:31,583 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,583 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,584 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 6efc4917-767c-4276-ad78-9d69e27e005b, filename malware/Lab19-03_sc.bin with args {}
+2015-11-08 01:50:31,584 DEBUG Module run queue is empty
+2015-11-08 01:50:31,590 DEBUG si_dispatch - depth: 1, time: 0.0643389225006
+2015-11-08 01:50:31,590 DEBUG si_dispatch - depth: 1, time: 0.129359006882
+2015-11-08 01:50:31,592 DEBUG Module run queue is empty
+2015-11-08 01:50:31,592 DEBUG attempting conditional disposition on malware/Lab06-02.exe with  uID: 3c1a7814-37dd-4ee4-8d4f-0d1381d8c6ba parent: 
+2015-11-08 01:50:31,592 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,555 DEBUG attempting conditional disposition on malware/Lab06-01.exe with  uID: c7a1d338-8575-4b9c-90ac-970713b9e430 parent: 
+2015-11-08 01:50:31,593 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,593 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab06-01.exe'}
+2015-11-08 01:50:31,594 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,594 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,595 DEBUG Module run queue is empty
+2015-11-08 01:50:31,595 DEBUG si_dispatch - depth: 1, time: 0.0718069076538
+2015-11-08 01:50:31,595 DEBUG si_dispatch - depth: 1, time: 0.140300989151
+2015-11-08 01:50:31,592 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab06-02.exe'}
+2015-11-08 01:50:31,598 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,599 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,599 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 3c1a7814-37dd-4ee4-8d4f-0d1381d8c6ba, filename malware/Lab06-02.exe with args {}
+2015-11-08 01:50:31,588 DEBUG si_dispatch - Attempting to dispatch - uid: 3b56a793-74b2-4ba8-827d-dc11215817df, filename: malware/Lab10-03.exe, source module: 
+2015-11-08 01:50:31,602 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,603 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab10-03.exe'}
+2015-11-08 01:50:31,603 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 3b56a793-74b2-4ba8-827d-dc11215817df, filename malware/Lab10-03.exe with args {}
+2015-11-08 01:50:31,604 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,604 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,601 DEBUG Module run queue is empty
+2015-11-08 01:50:31,595 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: c7a1d338-8575-4b9c-90ac-970713b9e430, filename malware/Lab06-01.exe with args {}
+2015-11-08 01:50:31,606 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,606 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,606 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: c7a1d338-8575-4b9c-90ac-970713b9e430, filename malware/Lab06-01.exe with args {}
+2015-11-08 01:50:31,610 DEBUG si_dispatch - Attempting to dispatch - uid: 0af0663b-3211-41cd-b5e0-4b5200a65142, filename: malware/Lab21-02.exe, source module: 
+2015-11-08 01:50:31,610 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,605 DEBUG si_dispatch - depth: 1, time: 0.101212024689
+2015-11-08 01:50:31,611 DEBUG si_dispatch - depth: 1, time: 0.165720939636
+2015-11-08 01:50:31,609 DEBUG si_dispatch - Attempting to dispatch - uid: d43f1c01-64ab-4785-b596-50f4c965eba1, filename: malware/Lab16-02.exe, source module: 
+2015-11-08 01:50:31,614 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,615 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab16-02.exe'}
+2015-11-08 01:50:31,617 DEBUG Module run queue is empty
+2015-11-08 01:50:31,617 DEBUG si_dispatch - depth: 1, time: 0.0745520591736
+2015-11-08 01:50:31,618 DEBUG si_dispatch - depth: 1, time: 0.122486114502
+2015-11-08 01:50:31,600 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,621 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab21-02.exe'}
+2015-11-08 01:50:31,622 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 0af0663b-3211-41cd-b5e0-4b5200a65142, filename malware/Lab21-02.exe with args {}
+2015-11-08 01:50:31,622 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,623 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,623 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,621 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,626 DEBUG si_dispatch - Attempting to dispatch - uid: 1eb90e6e-4ed6-4f53-80c7-1e96910952fb, filename: malware/Lab14-01.exe, source module: 
+2015-11-08 01:50:31,626 DEBUG Module run queue is empty
+2015-11-08 01:50:31,628 DEBUG si_dispatch - depth: 1, time: 0.0455129146576
+2015-11-08 01:50:31,628 DEBUG si_dispatch - depth: 1, time: 0.141386985779
+2015-11-08 01:50:31,605 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,629 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 3b56a793-74b2-4ba8-827d-dc11215817df, filename malware/Lab10-03.exe with args {}
+2015-11-08 01:50:31,630 DEBUG Module run queue is empty
+2015-11-08 01:50:31,630 DEBUG attempting conditional disposition on malware/Lab10-03.exe with  uID: 3b56a793-74b2-4ba8-827d-dc11215817df parent: 
+2015-11-08 01:50:31,631 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,631 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab10-03.exe'}
+2015-11-08 01:50:31,632 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,632 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,632 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 3b56a793-74b2-4ba8-827d-dc11215817df, filename malware/Lab10-03.exe with args {}
+2015-11-08 01:50:31,615 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: d43f1c01-64ab-4785-b596-50f4c965eba1, filename malware/Lab16-02.exe with args {}
+2015-11-08 01:50:31,633 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,634 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,634 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,634 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: d43f1c01-64ab-4785-b596-50f4c965eba1, filename malware/Lab16-02.exe with args {}
+2015-11-08 01:50:31,635 DEBUG Module run queue is empty
+2015-11-08 01:50:31,635 DEBUG attempting conditional disposition on malware/Lab16-02.exe with  uID: d43f1c01-64ab-4785-b596-50f4c965eba1 parent: 
+2015-11-08 01:50:31,636 DEBUG Module run queue is empty
+2015-11-08 01:50:31,636 DEBUG si_dispatch - depth: 1, time: 0.0417840480804
+2015-11-08 01:50:31,628 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 3c1a7814-37dd-4ee4-8d4f-0d1381d8c6ba, filename malware/Lab06-02.exe with args {}
+2015-11-08 01:50:31,639 DEBUG si_dispatch - Attempting to dispatch - uid: b032f10a-c2c2-4012-b0d8-fa8db224051f, filename: malware/Lab11-01.exe, source module: 
+2015-11-08 01:50:31,639 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,639 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab11-01.exe'}
+2015-11-08 01:50:31,626 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,650 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 0af0663b-3211-41cd-b5e0-4b5200a65142, filename malware/Lab21-02.exe with args {}
+2015-11-08 01:50:31,651 DEBUG Module run queue is empty
+2015-11-08 01:50:31,651 DEBUG attempting conditional disposition on malware/Lab21-02.exe with  uID: 0af0663b-3211-41cd-b5e0-4b5200a65142 parent: 
+2015-11-08 01:50:31,652 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,652 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab21-02.exe'}
+2015-11-08 01:50:31,652 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,637 DEBUG si_dispatch - depth: 1, time: 0.143533945084
+2015-11-08 01:50:31,647 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab14-01.exe'}
+2015-11-08 01:50:31,675 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: b032f10a-c2c2-4012-b0d8-fa8db224051f, filename malware/Lab11-01.exe with args {}
+2015-11-08 01:50:31,636 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,678 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab16-02.exe'}
+2015-11-08 01:50:31,680 DEBUG si_dispatch - Attempting to dispatch - uid: 7703c35b-81b7-4b0d-839e-2f0427a10fe5, filename: malware/Lab18_05.exe, source module: 
+2015-11-08 01:50:31,681 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,681 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab18_05.exe'}
+2015-11-08 01:50:31,683 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 7703c35b-81b7-4b0d-839e-2f0427a10fe5, filename malware/Lab18_05.exe with args {}
+2015-11-08 01:50:31,683 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,684 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,684 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,684 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 7703c35b-81b7-4b0d-839e-2f0427a10fe5, filename malware/Lab18_05.exe with args {}
+2015-11-08 01:50:31,685 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,685 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,686 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,687 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 0af0663b-3211-41cd-b5e0-4b5200a65142, filename malware/Lab21-02.exe with args {}
+2015-11-08 01:50:31,687 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,688 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,688 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 0af0663b-3211-41cd-b5e0-4b5200a65142, filename malware/Lab21-02.exe with args {}
+2015-11-08 01:50:31,689 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,689 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,690 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 1eb90e6e-4ed6-4f53-80c7-1e96910952fb, filename malware/Lab14-01.exe with args {}
+2015-11-08 01:50:31,691 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,691 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,691 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,691 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 1eb90e6e-4ed6-4f53-80c7-1e96910952fb, filename malware/Lab14-01.exe with args {}
+2015-11-08 01:50:31,692 DEBUG Module run queue is empty
+2015-11-08 01:50:31,692 DEBUG attempting conditional disposition on malware/Lab14-01.exe with  uID: 1eb90e6e-4ed6-4f53-80c7-1e96910952fb parent: 
+2015-11-08 01:50:31,693 DEBUG Module run queue is empty
+2015-11-08 01:50:31,693 DEBUG si_dispatch - depth: 1, time: 0.0940029621124
+2015-11-08 01:50:31,693 DEBUG si_dispatch - depth: 1, time: 0.174186944962
+2015-11-08 01:50:31,672 DEBUG si_dispatch - Attempting to dispatch - uid: 171527f2-acaa-45d7-b463-2e83a52ae5b3, filename: malware/Lab11-02.ini, source module: 
+2015-11-08 01:50:31,695 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,695 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 29, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab11-02.ini'}
+2015-11-08 01:50:31,696 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 171527f2-acaa-45d7-b463-2e83a52ae5b3, filename malware/Lab11-02.ini with args {}
+2015-11-08 01:50:31,696 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,696 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,686 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,698 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: b032f10a-c2c2-4012-b0d8-fa8db224051f, filename malware/Lab11-01.exe with args {}
+2015-11-08 01:50:31,699 DEBUG Module run queue is empty
+2015-11-08 01:50:31,699 DEBUG attempting conditional disposition on malware/Lab11-01.exe with  uID: b032f10a-c2c2-4012-b0d8-fa8db224051f parent: 
+2015-11-08 01:50:31,699 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,700 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 3b56a793-74b2-4ba8-827d-dc11215817df, filename malware/Lab10-03.exe with args {}
+2015-11-08 01:50:31,701 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,701 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,702 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: d43f1c01-64ab-4785-b596-50f4c965eba1, filename malware/Lab16-02.exe with args {}
+2015-11-08 01:50:31,702 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,702 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,703 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: d43f1c01-64ab-4785-b596-50f4c965eba1, filename malware/Lab16-02.exe with args {}
+2015-11-08 01:50:31,705 DEBUG si_dispatch - Attempting to dispatch - uid: 5b365033-299b-4bb5-9a37-573d2dbcf1d0, filename: malware/Lab14-03.exe, source module: 
+2015-11-08 01:50:31,706 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,706 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab14-03.exe'}
+2015-11-08 01:50:31,707 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 5b365033-299b-4bb5-9a37-573d2dbcf1d0, filename malware/Lab14-03.exe with args {}
+2015-11-08 01:50:31,707 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,707 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,707 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,697 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,710 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 171527f2-acaa-45d7-b463-2e83a52ae5b3, filename malware/Lab11-02.ini with args {}
+2015-11-08 01:50:31,710 DEBUG Module run queue is empty
+2015-11-08 01:50:31,693 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,712 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab14-01.exe'}
+2015-11-08 01:50:31,712 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,713 DEBUG Module run queue is empty
+2015-11-08 01:50:31,713 DEBUG si_dispatch - depth: 1, time: 0.0809810161591
+2015-11-08 01:50:31,714 DEBUG si_dispatch - depth: 1, time: 0.125463962555
+2015-11-08 01:50:31,700 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab11-01.exe'}
+2015-11-08 01:50:31,715 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,716 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,717 DEBUG Module run queue is empty
+2015-11-08 01:50:31,718 DEBUG si_dispatch - depth: 1, time: 0.0307869911194
+2015-11-08 01:50:31,718 DEBUG si_dispatch - depth: 1, time: 0.108475923538
+2015-11-08 01:50:31,720 DEBUG Module run queue is empty
+2015-11-08 01:50:31,721 DEBUG attempting conditional disposition on malware/Lab11-02.ini with  uID: 171527f2-acaa-45d7-b463-2e83a52ae5b3 parent: 
+2015-11-08 01:50:31,713 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,722 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,722 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 29, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab11-02.ini'}
+2015-11-08 01:50:31,723 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,723 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,723 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 171527f2-acaa-45d7-b463-2e83a52ae5b3, filename malware/Lab11-02.ini with args {}
+2015-11-08 01:50:31,724 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,724 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,725 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 1eb90e6e-4ed6-4f53-80c7-1e96910952fb, filename malware/Lab14-01.exe with args {}
+2015-11-08 01:50:31,725 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,726 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,726 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 1eb90e6e-4ed6-4f53-80c7-1e96910952fb, filename malware/Lab14-01.exe with args {}
+2015-11-08 01:50:31,716 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: b032f10a-c2c2-4012-b0d8-fa8db224051f, filename malware/Lab11-01.exe with args {}
+2015-11-08 01:50:31,728 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,729 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 5b365033-299b-4bb5-9a37-573d2dbcf1d0, filename malware/Lab14-03.exe with args {}
+2015-11-08 01:50:31,730 DEBUG Module run queue is empty
+2015-11-08 01:50:31,730 DEBUG attempting conditional disposition on malware/Lab14-03.exe with  uID: 5b365033-299b-4bb5-9a37-573d2dbcf1d0 parent: 
+2015-11-08 01:50:31,730 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,732 DEBUG attempting conditional disposition on malware/Lab18_05.exe with  uID: 7703c35b-81b7-4b0d-839e-2f0427a10fe5 parent: 
+2015-11-08 01:50:31,732 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,734 DEBUG si_dispatch - Attempting to dispatch - uid: ed8e5ca2-a822-4d56-b9b7-20f0a9d9be62, filename: malware/config.dat, source module: 
+2015-11-08 01:50:31,734 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,734 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/config.dat'}
+2015-11-08 01:50:31,735 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: ed8e5ca2-a822-4d56-b9b7-20f0a9d9be62, filename malware/config.dat with args {}
+2015-11-08 01:50:31,736 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,737 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,737 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: b032f10a-c2c2-4012-b0d8-fa8db224051f, filename malware/Lab11-01.exe with args {}
+2015-11-08 01:50:31,736 DEBUG Module run queue is empty
+2015-11-08 01:50:31,739 DEBUG si_dispatch - depth: 1, time: 0.0377070903778
+2015-11-08 01:50:31,740 DEBUG si_dispatch - depth: 1, time: 0.131676197052
+2015-11-08 01:50:31,733 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab18_05.exe'}
+2015-11-08 01:50:31,741 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,743 DEBUG si_dispatch - Attempting to dispatch - uid: e8c4a720-2c27-4017-b90f-ea8b7162dca8, filename: malware/Lab20-01.exe, source module: 
+2015-11-08 01:50:31,743 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,744 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab20-01.exe'}
+2015-11-08 01:50:31,744 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: e8c4a720-2c27-4017-b90f-ea8b7162dca8, filename malware/Lab20-01.exe with args {}
+2015-11-08 01:50:31,731 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab14-03.exe'}
+2015-11-08 01:50:31,745 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,746 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,746 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 5b365033-299b-4bb5-9a37-573d2dbcf1d0, filename malware/Lab14-03.exe with args {}
+2015-11-08 01:50:31,747 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,747 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,747 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 5b365033-299b-4bb5-9a37-573d2dbcf1d0, filename malware/Lab14-03.exe with args {}
+2015-11-08 01:50:31,742 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,749 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 7703c35b-81b7-4b0d-839e-2f0427a10fe5, filename malware/Lab18_05.exe with args {}
+2015-11-08 01:50:31,750 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,750 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,750 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 7703c35b-81b7-4b0d-839e-2f0427a10fe5, filename malware/Lab18_05.exe with args {}
+2015-11-08 01:50:31,753 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 171527f2-acaa-45d7-b463-2e83a52ae5b3, filename malware/Lab11-02.ini with args {}
+2015-11-08 01:50:31,755 DEBUG Module run queue is empty
+2015-11-08 01:50:31,756 DEBUG si_dispatch - depth: 1, time: 0.0343301296234
+2015-11-08 01:50:31,756 DEBUG si_dispatch - depth: 1, time: 0.131110906601
+2015-11-08 01:50:31,758 DEBUG Module run queue is empty
+2015-11-08 01:50:31,759 DEBUG si_dispatch - depth: 1, time: 0.0429358482361
+2015-11-08 01:50:31,759 DEBUG si_dispatch - depth: 1, time: 0.121042013168
+2015-11-08 01:50:31,761 DEBUG si_dispatch - Attempting to dispatch - uid: e28f8b06-25af-45a5-a8e7-e16881c2a60a, filename: malware/Lab18-01.exe, source module: 
+2015-11-08 01:50:31,765 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,736 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,767 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,767 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: ed8e5ca2-a822-4d56-b9b7-20f0a9d9be62, filename malware/config.dat with args {}
+2015-11-08 01:50:31,768 DEBUG Module run queue is empty
+2015-11-08 01:50:31,768 DEBUG attempting conditional disposition on malware/config.dat with  uID: ed8e5ca2-a822-4d56-b9b7-20f0a9d9be62 parent: 
+2015-11-08 01:50:31,769 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,769 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,769 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,770 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: e8c4a720-2c27-4017-b90f-ea8b7162dca8, filename malware/Lab20-01.exe with args {}
+2015-11-08 01:50:31,770 DEBUG Module run queue is empty
+2015-11-08 01:50:31,771 DEBUG attempting conditional disposition on malware/Lab20-01.exe with  uID: e8c4a720-2c27-4017-b90f-ea8b7162dca8 parent: 
+2015-11-08 01:50:31,771 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,771 DEBUG Module run queue is empty
+2015-11-08 01:50:31,772 DEBUG si_dispatch - depth: 1, time: 0.0483090877533
+2015-11-08 01:50:31,772 DEBUG si_dispatch - depth: 1, time: 0.10102391243
+2015-11-08 01:50:31,777 DEBUG si_dispatch - Attempting to dispatch - uid: b1bf62d0-3b3b-4a33-b306-7d192f0e65d2, filename: malware/Lab12-03.exe, source module: 
+2015-11-08 01:50:31,777 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,778 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab12-03.exe'}
+2015-11-08 01:50:31,778 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: b1bf62d0-3b3b-4a33-b306-7d192f0e65d2, filename malware/Lab12-03.exe with args {}
+2015-11-08 01:50:31,779 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,779 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,779 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,780 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: b1bf62d0-3b3b-4a33-b306-7d192f0e65d2, filename malware/Lab12-03.exe with args {}
+2015-11-08 01:50:31,780 DEBUG Module run queue is empty
+2015-11-08 01:50:31,780 DEBUG attempting conditional disposition on malware/Lab12-03.exe with  uID: b1bf62d0-3b3b-4a33-b306-7d192f0e65d2 parent: 
+2015-11-08 01:50:31,766 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab18-01.exe'}
+2015-11-08 01:50:31,782 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: e28f8b06-25af-45a5-a8e7-e16881c2a60a, filename malware/Lab18-01.exe with args {}
+2015-11-08 01:50:31,782 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,783 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,784 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,785 DEBUG Module run queue is empty
+2015-11-08 01:50:31,785 DEBUG si_dispatch - depth: 1, time: 0.0362260341644
+2015-11-08 01:50:31,786 DEBUG si_dispatch - depth: 1, time: 0.106012821198
+2015-11-08 01:50:31,769 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,787 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/config.dat'}
+2015-11-08 01:50:31,787 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,788 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,788 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: ed8e5ca2-a822-4d56-b9b7-20f0a9d9be62, filename malware/config.dat with args {}
+2015-11-08 01:50:31,789 DEBUG Module run queue is empty
+2015-11-08 01:50:31,789 DEBUG si_dispatch - depth: 1, time: 0.0431981086731
+2015-11-08 01:50:31,789 DEBUG si_dispatch - depth: 1, time: 0.0844910144806
+2015-11-08 01:50:31,771 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab20-01.exe'}
+2015-11-08 01:50:31,792 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,795 DEBUG si_dispatch - Attempting to dispatch - uid: b3a9202c-1bca-4dc0-9206-ba1c5f13a3ef, filename: malware/Lab18-02.exe, source module: 
+2015-11-08 01:50:31,796 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,796 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab18-02.exe'}
+2015-11-08 01:50:31,798 DEBUG si_dispatch - Attempting to dispatch - uid: d2cb807d-e994-468f-b222-0f76a7e46a9a, filename: malware/Lab07_01.exe, source module: 
+2015-11-08 01:50:31,798 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,799 DEBUG si_dispatch - Attempting to dispatch - uid: d5ddf21c-80ab-40a7-bba9-e2146b0c3f18, filename: malware/Lab17-01.exe, source module: 
+2015-11-08 01:50:31,800 DEBUG si_dispatch - Attempting to dispatch - uid: f7229dbe-10f8-4a3b-a61e-50fda17e9fb5, filename: malware/DLL3.dll, source module: 
+2015-11-08 01:50:31,801 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,801 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/DLL3.dll'}
+2015-11-08 01:50:31,792 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,806 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: e8c4a720-2c27-4017-b90f-ea8b7162dca8, filename malware/Lab20-01.exe with args {}
+2015-11-08 01:50:31,806 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,806 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,807 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: e8c4a720-2c27-4017-b90f-ea8b7162dca8, filename malware/Lab20-01.exe with args {}
+2015-11-08 01:50:31,800 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,809 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,810 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: ed8e5ca2-a822-4d56-b9b7-20f0a9d9be62, filename malware/config.dat with args {}
+2015-11-08 01:50:31,784 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: e28f8b06-25af-45a5-a8e7-e16881c2a60a, filename malware/Lab18-01.exe with args {}
+2015-11-08 01:50:31,814 DEBUG Module run queue is empty
+2015-11-08 01:50:31,814 DEBUG attempting conditional disposition on malware/Lab18-01.exe with  uID: e28f8b06-25af-45a5-a8e7-e16881c2a60a parent: 
+2015-11-08 01:50:31,814 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,815 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab18-01.exe'}
+2015-11-08 01:50:31,815 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,816 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,816 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab17-01.exe'}
+2015-11-08 01:50:31,817 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab07_01.exe'}
+2015-11-08 01:50:31,818 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: d2cb807d-e994-468f-b222-0f76a7e46a9a, filename malware/Lab07_01.exe with args {}
+2015-11-08 01:50:31,818 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,818 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,818 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,819 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: d2cb807d-e994-468f-b222-0f76a7e46a9a, filename malware/Lab07_01.exe with args {}
+2015-11-08 01:50:31,820 DEBUG Module run queue is empty
+2015-11-08 01:50:31,820 DEBUG attempting conditional disposition on malware/Lab07_01.exe with  uID: d2cb807d-e994-468f-b222-0f76a7e46a9a parent: 
+2015-11-08 01:50:31,820 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,820 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab07_01.exe'}
+2015-11-08 01:50:31,821 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: b3a9202c-1bca-4dc0-9206-ba1c5f13a3ef, filename malware/Lab18-02.exe with args {}
+2015-11-08 01:50:31,821 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,822 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,822 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,822 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: b3a9202c-1bca-4dc0-9206-ba1c5f13a3ef, filename malware/Lab18-02.exe with args {}
+2015-11-08 01:50:31,823 DEBUG Module run queue is empty
+2015-11-08 01:50:31,824 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: d5ddf21c-80ab-40a7-bba9-e2146b0c3f18, filename malware/Lab17-01.exe with args {}
+2015-11-08 01:50:31,824 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,824 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,825 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,825 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab12-03.exe'}
+2015-11-08 01:50:31,826 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,827 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: f7229dbe-10f8-4a3b-a61e-50fda17e9fb5, filename malware/DLL3.dll with args {}
+2015-11-08 01:50:31,827 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,827 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,828 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,828 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: f7229dbe-10f8-4a3b-a61e-50fda17e9fb5, filename malware/DLL3.dll with args {}
+2015-11-08 01:50:31,830 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,831 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: d5ddf21c-80ab-40a7-bba9-e2146b0c3f18, filename malware/Lab17-01.exe with args {}
+2015-11-08 01:50:31,832 DEBUG Module run queue is empty
+2015-11-08 01:50:31,832 DEBUG attempting conditional disposition on malware/Lab17-01.exe with  uID: d5ddf21c-80ab-40a7-bba9-e2146b0c3f18 parent: 
+2015-11-08 01:50:31,832 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,833 DEBUG Module run queue is empty
+2015-11-08 01:50:31,835 DEBUG si_dispatch - depth: 1, time: 0.0465650558472
+2015-11-08 01:50:31,835 DEBUG si_dispatch - depth: 1, time: 0.101984977722
+2015-11-08 01:50:31,826 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,837 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: b1bf62d0-3b3b-4a33-b306-7d192f0e65d2, filename malware/Lab12-03.exe with args {}
+2015-11-08 01:50:31,837 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,838 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,838 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: b1bf62d0-3b3b-4a33-b306-7d192f0e65d2, filename malware/Lab12-03.exe with args {}
+2015-11-08 01:50:31,833 DEBUG Module run queue is empty
+2015-11-08 01:50:31,840 DEBUG si_dispatch - depth: 1, time: 0.0340359210968
+2015-11-08 01:50:31,816 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,823 DEBUG attempting conditional disposition on malware/Lab18-02.exe with  uID: b3a9202c-1bca-4dc0-9206-ba1c5f13a3ef parent: 
+2015-11-08 01:50:31,841 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,841 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab18-02.exe'}
+2015-11-08 01:50:31,842 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,842 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,842 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: b3a9202c-1bca-4dc0-9206-ba1c5f13a3ef, filename malware/Lab18-02.exe with args {}
+2015-11-08 01:50:31,829 DEBUG Module run queue is empty
+2015-11-08 01:50:31,845 DEBUG attempting conditional disposition on malware/DLL3.dll with  uID: f7229dbe-10f8-4a3b-a61e-50fda17e9fb5 parent: 
+2015-11-08 01:50:31,846 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,846 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/DLL3.dll'}
+2015-11-08 01:50:31,846 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,847 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,835 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,843 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: e28f8b06-25af-45a5-a8e7-e16881c2a60a, filename malware/Lab18-01.exe with args {}
+2015-11-08 01:50:31,840 DEBUG si_dispatch - depth: 1, time: 0.0975158214569
+2015-11-08 01:50:31,848 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,850 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,850 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: e28f8b06-25af-45a5-a8e7-e16881c2a60a, filename malware/Lab18-01.exe with args {}
+2015-11-08 01:50:31,852 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,853 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: d2cb807d-e994-468f-b222-0f76a7e46a9a, filename malware/Lab07_01.exe with args {}
+2015-11-08 01:50:31,854 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,854 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,854 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: d2cb807d-e994-468f-b222-0f76a7e46a9a, filename malware/Lab07_01.exe with args {}
+2015-11-08 01:50:31,844 DEBUG si_dispatch - Attempting to dispatch - uid: d112d8eb-f136-4f17-bed9-5926bd5cd178, filename: malware/Lab19-01.bin, source module: 
+2015-11-08 01:50:31,857 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,857 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab19-01.bin'}
+2015-11-08 01:50:31,845 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab17-01.exe'}
+2015-11-08 01:50:31,858 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,858 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,859 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: d5ddf21c-80ab-40a7-bba9-e2146b0c3f18, filename malware/Lab17-01.exe with args {}
+2015-11-08 01:50:31,859 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,859 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,860 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: d5ddf21c-80ab-40a7-bba9-e2146b0c3f18, filename malware/Lab17-01.exe with args {}
+2015-11-08 01:50:31,861 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,861 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,862 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: b3a9202c-1bca-4dc0-9206-ba1c5f13a3ef, filename malware/Lab18-02.exe with args {}
+2015-11-08 01:50:31,847 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: f7229dbe-10f8-4a3b-a61e-50fda17e9fb5, filename malware/DLL3.dll with args {}
+2015-11-08 01:50:31,864 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,864 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,865 DEBUG Module run queue is empty
+2015-11-08 01:50:31,865 DEBUG si_dispatch - depth: 1, time: 0.0284240245819
+2015-11-08 01:50:31,866 DEBUG si_dispatch - depth: 1, time: 0.0894839763641
+2015-11-08 01:50:31,856 DEBUG si_dispatch - Attempting to dispatch - uid: 327d54a0-bb7a-4ab9-a437-b3ec094415b0, filename: malware/Lab01-04.exe, source module: 
+2015-11-08 01:50:31,867 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,868 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab01-04.exe'}
+2015-11-08 01:50:31,869 DEBUG Module run queue is empty
+2015-11-08 01:50:31,869 DEBUG si_dispatch - depth: 1, time: 0.0288019180298
+2015-11-08 01:50:31,870 DEBUG si_dispatch - depth: 1, time: 0.11740899086
+2015-11-08 01:50:31,871 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: d112d8eb-f136-4f17-bed9-5926bd5cd178, filename malware/Lab19-01.bin with args {}
+2015-11-08 01:50:31,871 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,872 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,872 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,872 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: d112d8eb-f136-4f17-bed9-5926bd5cd178, filename malware/Lab19-01.bin with args {}
+2015-11-08 01:50:31,873 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: f7229dbe-10f8-4a3b-a61e-50fda17e9fb5, filename malware/DLL3.dll with args {}
+2015-11-08 01:50:31,875 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 327d54a0-bb7a-4ab9-a437-b3ec094415b0, filename malware/Lab01-04.exe with args {}
+2015-11-08 01:50:31,875 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,875 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,875 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,876 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 327d54a0-bb7a-4ab9-a437-b3ec094415b0, filename malware/Lab01-04.exe with args {}
+2015-11-08 01:50:31,876 DEBUG Module run queue is empty
+2015-11-08 01:50:31,878 DEBUG si_dispatch - Attempting to dispatch - uid: ab15c5e7-1eab-4e28-8fe1-5296596e69a1, filename: malware/Lab12-02.exe, source module: 
+2015-11-08 01:50:31,879 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,879 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab12-02.exe'}
+2015-11-08 01:50:31,880 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: ab15c5e7-1eab-4e28-8fe1-5296596e69a1, filename malware/Lab12-02.exe with args {}
+2015-11-08 01:50:31,885 DEBUG Module run queue is empty
+2015-11-08 01:50:31,885 DEBUG si_dispatch - depth: 1, time: 0.0323679447174
+2015-11-08 01:50:31,886 DEBUG si_dispatch - depth: 1, time: 0.0885291099548
+2015-11-08 01:50:31,887 DEBUG Module run queue is empty
+2015-11-08 01:50:31,887 DEBUG si_dispatch - depth: 1, time: 0.0450007915497
+2015-11-08 01:50:31,888 DEBUG si_dispatch - depth: 1, time: 0.0928270816803
+2015-11-08 01:50:31,890 DEBUG si_dispatch - Attempting to dispatch - uid: c5383919-9344-4d80-afcd-120213e43856, filename: malware/Lab03-04.exe, source module: 
+2015-11-08 01:50:31,890 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,891 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab03-04.exe'}
+2015-11-08 01:50:31,891 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: c5383919-9344-4d80-afcd-120213e43856, filename malware/Lab03-04.exe with args {}
+2015-11-08 01:50:31,892 DEBUG Module run queue is empty
+2015-11-08 01:50:31,893 DEBUG Module run queue is empty
+2015-11-08 01:50:31,893 DEBUG si_dispatch - depth: 1, time: 0.0462591648102
+2015-11-08 01:50:31,894 DEBUG si_dispatch - depth: 1, time: 0.0941970348358
+2015-11-08 01:50:31,895 DEBUG Module run queue is empty
+2015-11-08 01:50:31,895 DEBUG si_dispatch - depth: 1, time: 0.0362219810486
+2015-11-08 01:50:31,895 DEBUG si_dispatch - depth: 1, time: 0.0968880653381
+2015-11-08 01:50:31,893 DEBUG attempting conditional disposition on malware/Lab19-01.bin with  uID: d112d8eb-f136-4f17-bed9-5926bd5cd178 parent: 
+2015-11-08 01:50:31,897 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,897 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab19-01.bin'}
+2015-11-08 01:50:31,898 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,898 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,898 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: d112d8eb-f136-4f17-bed9-5926bd5cd178, filename malware/Lab19-01.bin with args {}
+2015-11-08 01:50:31,899 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,899 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,900 DEBUG attempting conditional disposition on malware/Lab01-04.exe with  uID: 327d54a0-bb7a-4ab9-a437-b3ec094415b0 parent: 
+2015-11-08 01:50:31,900 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,900 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab01-04.exe'}
+2015-11-08 01:50:31,902 DEBUG si_dispatch - Attempting to dispatch - uid: 732ff5ce-7846-4d79-aa9a-d7c8b9f0956d, filename: malware/DLL1.dll, source module: 
+2015-11-08 01:50:31,903 DEBUG si_dispatch - Attempting to dispatch - uid: 81919930-26f5-4266-927f-de362b82a522, filename: malware/findAntiVM.py, source module: 
+2015-11-08 01:50:31,904 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,904 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/findAntiVM.py'}
+2015-11-08 01:50:31,905 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: ab15c5e7-1eab-4e28-8fe1-5296596e69a1, filename malware/Lab12-02.exe with args {}
+2015-11-08 01:50:31,905 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,906 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,906 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,906 DEBUG Module run queue is empty
+2015-11-08 01:50:31,906 DEBUG attempting conditional disposition on malware/Lab12-02.exe with  uID: ab15c5e7-1eab-4e28-8fe1-5296596e69a1 parent: 
+2015-11-08 01:50:31,907 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,907 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab12-02.exe'}
+2015-11-08 01:50:31,907 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,907 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,908 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: ab15c5e7-1eab-4e28-8fe1-5296596e69a1, filename malware/Lab12-02.exe with args {}
+2015-11-08 01:50:31,908 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,909 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,909 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,913 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,914 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 327d54a0-bb7a-4ab9-a437-b3ec094415b0, filename malware/Lab01-04.exe with args {}
+2015-11-08 01:50:31,914 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,914 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,915 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 327d54a0-bb7a-4ab9-a437-b3ec094415b0, filename malware/Lab01-04.exe with args {}
+2015-11-08 01:50:31,910 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,916 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,911 DEBUG si_dispatch - Attempting to dispatch - uid: 46bbf543-5ef2-4e7a-b693-38afd0142a75, filename: malware/Lab06-03.exe, source module: 
+2015-11-08 01:50:31,917 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,917 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab06-03.exe'}
+2015-11-08 01:50:31,918 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 46bbf543-5ef2-4e7a-b693-38afd0142a75, filename malware/Lab06-03.exe with args {}
+2015-11-08 01:50:31,918 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,919 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,919 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,919 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 46bbf543-5ef2-4e7a-b693-38afd0142a75, filename malware/Lab06-03.exe with args {}
+2015-11-08 01:50:31,911 DEBUG si_dispatch - Attempting to dispatch - uid: d46410e1-246c-41ee-9d50-c570deb3981e, filename: malware/Lab16-01.exe, source module: 
+2015-11-08 01:50:31,920 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,912 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,921 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/DLL1.dll'}
+2015-11-08 01:50:31,922 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 732ff5ce-7846-4d79-aa9a-d7c8b9f0956d, filename malware/DLL1.dll with args {}
+2015-11-08 01:50:31,922 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 732ff5ce-7846-4d79-aa9a-d7c8b9f0956d, filename malware/DLL1.dll with args {}
+2015-11-08 01:50:31,923 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,923 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,923 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,924 DEBUG Module run queue is empty
+2015-11-08 01:50:31,924 DEBUG attempting conditional disposition on malware/DLL1.dll with  uID: 732ff5ce-7846-4d79-aa9a-d7c8b9f0956d parent: 
+2015-11-08 01:50:31,924 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,924 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,925 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: c5383919-9344-4d80-afcd-120213e43856, filename malware/Lab03-04.exe with args {}
+2015-11-08 01:50:31,925 DEBUG Module run queue is empty
+2015-11-08 01:50:31,926 DEBUG attempting conditional disposition on malware/Lab03-04.exe with  uID: c5383919-9344-4d80-afcd-120213e43856 parent: 
+2015-11-08 01:50:31,926 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,926 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab03-04.exe'}
+2015-11-08 01:50:31,927 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,927 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab16-01.exe'}
+2015-11-08 01:50:31,912 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 81919930-26f5-4266-927f-de362b82a522, filename malware/findAntiVM.py with args {}
+2015-11-08 01:50:31,929 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,930 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,930 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,930 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 81919930-26f5-4266-927f-de362b82a522, filename malware/findAntiVM.py with args {}
+2015-11-08 01:50:31,900 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: d112d8eb-f136-4f17-bed9-5926bd5cd178, filename malware/Lab19-01.bin with args {}
+2015-11-08 01:50:31,929 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: d46410e1-246c-41ee-9d50-c570deb3981e, filename malware/Lab16-01.exe with args {}
+2015-11-08 01:50:31,933 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,933 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,934 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,934 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: d46410e1-246c-41ee-9d50-c570deb3981e, filename malware/Lab16-01.exe with args {}
+2015-11-08 01:50:31,935 DEBUG Module run queue is empty
+2015-11-08 01:50:31,935 DEBUG attempting conditional disposition on malware/Lab16-01.exe with  uID: d46410e1-246c-41ee-9d50-c570deb3981e parent: 
+2015-11-08 01:50:31,935 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,935 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab16-01.exe'}
+2015-11-08 01:50:31,936 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,936 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,937 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: d46410e1-246c-41ee-9d50-c570deb3981e, filename malware/Lab16-01.exe with args {}
+2015-11-08 01:50:31,937 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: ab15c5e7-1eab-4e28-8fe1-5296596e69a1, filename malware/Lab12-02.exe with args {}
+2015-11-08 01:50:31,939 DEBUG Module run queue is empty
+2015-11-08 01:50:31,943 DEBUG si_dispatch - depth: 1, time: 0.0447931289673
+2015-11-08 01:50:31,944 DEBUG si_dispatch - depth: 1, time: 0.0997619628906
+2015-11-08 01:50:31,940 DEBUG Module run queue is empty
+2015-11-08 01:50:31,945 DEBUG attempting conditional disposition on malware/findAntiVM.py with  uID: 81919930-26f5-4266-927f-de362b82a522 parent: 
+2015-11-08 01:50:31,945 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,946 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/findAntiVM.py'}
+2015-11-08 01:50:31,940 DEBUG Module run queue is empty
+2015-11-08 01:50:31,946 DEBUG si_dispatch - depth: 1, time: 0.0324461460114
+2015-11-08 01:50:31,946 DEBUG si_dispatch - depth: 1, time: 0.0901920795441
+2015-11-08 01:50:31,927 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,948 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: c5383919-9344-4d80-afcd-120213e43856, filename malware/Lab03-04.exe with args {}
+2015-11-08 01:50:31,948 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,941 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/DLL1.dll'}
+2015-11-08 01:50:31,949 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,950 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,950 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 732ff5ce-7846-4d79-aa9a-d7c8b9f0956d, filename malware/DLL1.dll with args {}
+2015-11-08 01:50:31,951 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,951 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,951 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 732ff5ce-7846-4d79-aa9a-d7c8b9f0956d, filename malware/DLL1.dll with args {}
+2015-11-08 01:50:31,920 DEBUG Module run queue is empty
+2015-11-08 01:50:31,952 DEBUG attempting conditional disposition on malware/Lab06-03.exe with  uID: 46bbf543-5ef2-4e7a-b693-38afd0142a75 parent: 
+2015-11-08 01:50:31,952 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:31,953 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab06-03.exe'}
+2015-11-08 01:50:31,953 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,954 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,954 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 46bbf543-5ef2-4e7a-b693-38afd0142a75, filename malware/Lab06-03.exe with args {}
+2015-11-08 01:50:31,954 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,955 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,955 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:31,955 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:31,956 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 81919930-26f5-4266-927f-de362b82a522, filename malware/findAntiVM.py with args {}
+2015-11-08 01:50:31,956 DEBUG Module run queue is empty
+2015-11-08 01:50:31,957 DEBUG si_dispatch - depth: 1, time: 0.048898935318
+2015-11-08 01:50:31,957 DEBUG si_dispatch - depth: 1, time: 0.0794320106506
+2015-11-08 01:50:31,949 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,959 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: c5383919-9344-4d80-afcd-120213e43856, filename malware/Lab03-04.exe with args {}
+2015-11-08 01:50:31,961 DEBUG si_dispatch - Attempting to dispatch - uid: 4c0753e7-20a0-401c-a9fa-52804d98f99c, filename: malware/Lab01-03.exe, source module: 
+2015-11-08 01:50:31,962 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,963 DEBUG si_dispatch - Attempting to dispatch - uid: 4a14ed19-057c-4a99-865e-f04bde24b04f, filename: malware/Lab05-01.dll, source module: 
+2015-11-08 01:50:31,963 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,964 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab05-01.dll'}
+2015-11-08 01:50:31,965 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,965 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,966 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: d46410e1-246c-41ee-9d50-c570deb3981e, filename malware/Lab16-01.exe with args {}
+2015-11-08 01:50:31,956 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:31,968 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,970 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 46bbf543-5ef2-4e7a-b693-38afd0142a75, filename malware/Lab06-03.exe with args {}
+2015-11-08 01:50:31,974 DEBUG si_dispatch - Attempting to dispatch - uid: 238d3633-a8a8-418c-9210-cc6be6b635fb, filename: malware/DLL2.dll, source module: 
+2015-11-08 01:50:31,962 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab01-03.exe'}
+2015-11-08 01:50:31,976 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 4c0753e7-20a0-401c-a9fa-52804d98f99c, filename malware/Lab01-03.exe with args {}
+2015-11-08 01:50:31,976 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,976 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,977 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:31,977 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/DLL2.dll'}
+2015-11-08 01:50:31,979 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 81919930-26f5-4266-927f-de362b82a522, filename malware/findAntiVM.py with args {}
+2015-11-08 01:50:31,980 DEBUG Module run queue is empty
+2015-11-08 01:50:31,982 DEBUG si_dispatch - depth: 1, time: 0.0344920158386
+2015-11-08 01:50:31,983 DEBUG si_dispatch - depth: 1, time: 0.0930700302124
+2015-11-08 01:50:31,984 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 4a14ed19-057c-4a99-865e-f04bde24b04f, filename malware/Lab05-01.dll with args {}
+2015-11-08 01:50:31,984 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:31,986 DEBUG Module run queue is empty
+2015-11-08 01:50:31,986 DEBUG si_dispatch - depth: 1, time: 0.0361070632935
+2015-11-08 01:50:31,987 DEBUG si_dispatch - depth: 1, time: 0.0846529006958
+2015-11-08 01:50:31,988 DEBUG Module run queue is empty
+2015-11-08 01:50:31,989 DEBUG Module run queue is empty
+2015-11-08 01:50:31,989 DEBUG si_dispatch - depth: 1, time: 0.0354368686676
+2015-11-08 01:50:31,990 DEBUG si_dispatch - depth: 1, time: 0.0791268348694
+2015-11-08 01:50:31,977 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,991 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 4c0753e7-20a0-401c-a9fa-52804d98f99c, filename malware/Lab01-03.exe with args {}
+2015-11-08 01:50:31,985 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:31,993 DEBUG util: externalVars: {}
+2015-11-08 01:50:31,994 DEBUG Module run queue is empty
+2015-11-08 01:50:31,994 DEBUG si_dispatch - depth: 1, time: 0.0386629104614
+2015-11-08 01:50:31,995 DEBUG si_dispatch - depth: 1, time: 0.0915820598602
+2015-11-08 01:50:31,978 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 238d3633-a8a8-418c-9210-cc6be6b635fb, filename malware/DLL2.dll with args {}
+2015-11-08 01:50:31,997 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 238d3633-a8a8-418c-9210-cc6be6b635fb, filename malware/DLL2.dll with args {}
+2015-11-08 01:50:31,989 DEBUG si_dispatch - depth: 1, time: 0.0521600246429
+2015-11-08 01:50:31,998 DEBUG si_dispatch - depth: 1, time: 0.0883820056915
+2015-11-08 01:50:32,000 DEBUG si_dispatch - Attempting to dispatch - uid: 155ef9c4-462c-41e3-95ee-bb45b3292056, filename: malware/Lab11-02.dll, source module: 
+2015-11-08 01:50:32,001 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 4a14ed19-057c-4a99-865e-f04bde24b04f, filename malware/Lab05-01.dll with args {}
+2015-11-08 01:50:32,002 DEBUG Module run queue is empty
+2015-11-08 01:50:32,002 DEBUG attempting conditional disposition on malware/Lab05-01.dll with  uID: 4a14ed19-057c-4a99-865e-f04bde24b04f parent: 
+2015-11-08 01:50:32,003 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,003 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab05-01.dll'}
+2015-11-08 01:50:32,007 DEBUG si_dispatch - Attempting to dispatch - uid: 30bef590-9257-4f71-862e-e72dc405a0ac, filename: malware/Lab07-02.exe, source module: 
+2015-11-08 01:50:32,007 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,007 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab07-02.exe'}
+2015-11-08 01:50:32,008 DEBUG Module run queue is empty
+2015-11-08 01:50:32,009 DEBUG attempting conditional disposition on malware/Lab01-03.exe with  uID: 4c0753e7-20a0-401c-a9fa-52804d98f99c parent: 
+2015-11-08 01:50:32,009 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,009 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab01-03.exe'}
+2015-11-08 01:50:32,010 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,010 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,010 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 4c0753e7-20a0-401c-a9fa-52804d98f99c, filename malware/Lab01-03.exe with args {}
+2015-11-08 01:50:32,011 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,011 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,012 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 4c0753e7-20a0-401c-a9fa-52804d98f99c, filename malware/Lab01-03.exe with args {}
+2015-11-08 01:50:32,013 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,013 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,014 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,015 DEBUG si_dispatch - Attempting to dispatch - uid: 8e937777-80b1-4dd0-8104-ae4052c81bab, filename: malware/Lab12-01.exe, source module: 
+2015-11-08 01:50:32,016 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,016 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab12-01.exe'}
+2015-11-08 01:50:32,001 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,018 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab11-02.dll'}
+2015-11-08 01:50:32,018 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 155ef9c4-462c-41e3-95ee-bb45b3292056, filename malware/Lab11-02.dll with args {}
+2015-11-08 01:50:32,020 DEBUG si_dispatch - Attempting to dispatch - uid: b63b9f76-362f-440c-8238-327baf7cb212, filename: malware/Lab12-01.dll, source module: 
+2015-11-08 01:50:32,024 DEBUG si_dispatch - Attempting to dispatch - uid: 24677caf-98a6-4811-8cb4-af0dee6532f2, filename: malware/Lab05-01.py, source module: 
+2015-11-08 01:50:32,014 DEBUG Module run queue is empty
+2015-11-08 01:50:32,025 DEBUG attempting conditional disposition on malware/DLL2.dll with  uID: 238d3633-a8a8-418c-9210-cc6be6b635fb parent: 
+2015-11-08 01:50:32,026 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,026 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/DLL2.dll'}
+2015-11-08 01:50:32,026 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,027 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,027 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 238d3633-a8a8-418c-9210-cc6be6b635fb, filename malware/DLL2.dll with args {}
+2015-11-08 01:50:32,027 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,028 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,028 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 238d3633-a8a8-418c-9210-cc6be6b635fb, filename malware/DLL2.dll with args {}
+2015-11-08 01:50:32,029 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 30bef590-9257-4f71-862e-e72dc405a0ac, filename malware/Lab07-02.exe with args {}
+2015-11-08 01:50:32,030 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,030 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,030 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,031 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,031 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,032 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 4a14ed19-057c-4a99-865e-f04bde24b04f, filename malware/Lab05-01.dll with args {}
+2015-11-08 01:50:32,032 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,033 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,033 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab12-01.dll'}
+2015-11-08 01:50:32,034 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: b63b9f76-362f-440c-8238-327baf7cb212, filename malware/Lab12-01.dll with args {}
+2015-11-08 01:50:32,035 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,019 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,036 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,036 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,036 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 155ef9c4-462c-41e3-95ee-bb45b3292056, filename malware/Lab11-02.dll with args {}
+2015-11-08 01:50:32,038 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 8e937777-80b1-4dd0-8104-ae4052c81bab, filename malware/Lab12-01.exe with args {}
+2015-11-08 01:50:32,038 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,038 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,039 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,039 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 8e937777-80b1-4dd0-8104-ae4052c81bab, filename malware/Lab12-01.exe with args {}
+2015-11-08 01:50:32,040 DEBUG Module run queue is empty
+2015-11-08 01:50:32,040 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 30bef590-9257-4f71-862e-e72dc405a0ac, filename malware/Lab07-02.exe with args {}
+2015-11-08 01:50:32,041 DEBUG Module run queue is empty
+2015-11-08 01:50:32,042 DEBUG attempting conditional disposition on malware/Lab07-02.exe with  uID: 30bef590-9257-4f71-862e-e72dc405a0ac parent: 
+2015-11-08 01:50:32,042 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,042 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab07-02.exe'}
+2015-11-08 01:50:32,043 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,043 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,043 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 30bef590-9257-4f71-862e-e72dc405a0ac, filename malware/Lab07-02.exe with args {}
+2015-11-08 01:50:32,044 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,044 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,044 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 30bef590-9257-4f71-862e-e72dc405a0ac, filename malware/Lab07-02.exe with args {}
+2015-11-08 01:50:32,033 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,045 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 4a14ed19-057c-4a99-865e-f04bde24b04f, filename malware/Lab05-01.dll with args {}
+2015-11-08 01:50:32,046 DEBUG Module run queue is empty
+2015-11-08 01:50:32,046 DEBUG attempting conditional disposition on malware/Lab11-02.dll with  uID: 155ef9c4-462c-41e3-95ee-bb45b3292056 parent: 
+2015-11-08 01:50:32,047 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,047 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab11-02.dll'}
+2015-11-08 01:50:32,047 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,047 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,048 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 155ef9c4-462c-41e3-95ee-bb45b3292056, filename malware/Lab11-02.dll with args {}
+2015-11-08 01:50:32,049 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,049 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,049 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: b63b9f76-362f-440c-8238-327baf7cb212, filename malware/Lab12-01.dll with args {}
+2015-11-08 01:50:32,050 DEBUG Module run queue is empty
+2015-11-08 01:50:32,050 DEBUG attempting conditional disposition on malware/Lab12-01.dll with  uID: b63b9f76-362f-440c-8238-327baf7cb212 parent: 
+2015-11-08 01:50:32,051 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,051 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab12-01.dll'}
+2015-11-08 01:50:32,051 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,051 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,055 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,055 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab05-01.py'}
+2015-11-08 01:50:32,056 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 24677caf-98a6-4811-8cb4-af0dee6532f2, filename malware/Lab05-01.py with args {}
+2015-11-08 01:50:32,040 DEBUG attempting conditional disposition on malware/Lab12-01.exe with  uID: 8e937777-80b1-4dd0-8104-ae4052c81bab parent: 
+2015-11-08 01:50:32,057 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,057 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab12-01.exe'}
+2015-11-08 01:50:32,057 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,058 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,058 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 8e937777-80b1-4dd0-8104-ae4052c81bab, filename malware/Lab12-01.exe with args {}
+2015-11-08 01:50:32,058 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,059 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,059 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 8e937777-80b1-4dd0-8104-ae4052c81bab, filename malware/Lab12-01.exe with args {}
+2015-11-08 01:50:32,061 DEBUG Module run queue is empty
+2015-11-08 01:50:32,061 DEBUG si_dispatch - depth: 1, time: 0.0511410236359
+2015-11-08 01:50:32,062 DEBUG si_dispatch - depth: 1, time: 0.100666999817
+2015-11-08 01:50:32,065 DEBUG Module run queue is empty
+2015-11-08 01:50:32,066 DEBUG si_dispatch - depth: 1, time: 0.0342669487
+2015-11-08 01:50:32,067 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 24677caf-98a6-4811-8cb4-af0dee6532f2, filename malware/Lab05-01.py with args {}
+2015-11-08 01:50:32,068 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,068 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,068 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,069 DEBUG Module run queue is empty
+2015-11-08 01:50:32,069 DEBUG si_dispatch - depth: 1, time: 0.0422761440277
+2015-11-08 01:50:32,070 DEBUG si_dispatch - depth: 1, time: 0.0959618091583
+2015-11-08 01:50:32,048 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,071 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,071 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 155ef9c4-462c-41e3-95ee-bb45b3292056, filename malware/Lab11-02.dll with args {}
+2015-11-08 01:50:32,075 DEBUG si_dispatch - Attempting to dispatch - uid: 528607ed-2441-44bb-b8c5-2369adbed715, filename: malware/Lab01-01.exe, source module: 
+2015-11-08 01:50:32,075 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,075 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: b63b9f76-362f-440c-8238-327baf7cb212, filename malware/Lab12-01.dll with args {}
+2015-11-08 01:50:32,079 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,079 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,079 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: b63b9f76-362f-440c-8238-327baf7cb212, filename malware/Lab12-01.dll with args {}
+2015-11-08 01:50:32,067 DEBUG si_dispatch - depth: 1, time: 0.104017972946
+2015-11-08 01:50:32,083 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab01-01.exe'}
+2015-11-08 01:50:32,084 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 528607ed-2441-44bb-b8c5-2369adbed715, filename malware/Lab01-01.exe with args {}
+2015-11-08 01:50:32,084 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,085 DEBUG Module run queue is empty
+2015-11-08 01:50:32,085 DEBUG attempting conditional disposition on malware/Lab05-01.py with  uID: 24677caf-98a6-4811-8cb4-af0dee6532f2 parent: 
+2015-11-08 01:50:32,085 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,086 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab05-01.py'}
+2015-11-08 01:50:32,086 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,086 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,077 DEBUG Module run queue is empty
+2015-11-08 01:50:32,087 DEBUG si_dispatch - depth: 1, time: 0.0436780452728
+2015-11-08 01:50:32,087 DEBUG si_dispatch - depth: 1, time: 0.0812571048737
+2015-11-08 01:50:32,078 DEBUG si_dispatch - Attempting to dispatch - uid: 7d6484f8-8aee-4f79-824b-a5319bc9caae, filename: malware/Lab10-03.sys, source module: 
+2015-11-08 01:50:32,089 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,090 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab10-03.sys'}
+2015-11-08 01:50:32,090 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 7d6484f8-8aee-4f79-824b-a5319bc9caae, filename malware/Lab10-03.sys with args {}
+2015-11-08 01:50:32,091 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,091 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,091 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,091 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 7d6484f8-8aee-4f79-824b-a5319bc9caae, filename malware/Lab10-03.sys with args {}
+2015-11-08 01:50:32,092 DEBUG Module run queue is empty
+2015-11-08 01:50:32,092 DEBUG attempting conditional disposition on malware/Lab10-03.sys with  uID: 7d6484f8-8aee-4f79-824b-a5319bc9caae parent: 
+2015-11-08 01:50:32,093 DEBUG si_dispatch - Attempting to dispatch - uid: a060525c-7a2c-4341-93e9-59b17a1d9dda, filename: malware/Lab20-02.exe, source module: 
+2015-11-08 01:50:32,094 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,094 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab20-02.exe'}
+2015-11-08 01:50:32,095 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: a060525c-7a2c-4341-93e9-59b17a1d9dda, filename malware/Lab20-02.exe with args {}
+2015-11-08 01:50:32,095 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,095 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,095 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,096 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: a060525c-7a2c-4341-93e9-59b17a1d9dda, filename malware/Lab20-02.exe with args {}
+2015-11-08 01:50:32,096 DEBUG Module run queue is empty
+2015-11-08 01:50:32,096 DEBUG attempting conditional disposition on malware/Lab20-02.exe with  uID: a060525c-7a2c-4341-93e9-59b17a1d9dda parent: 
+2015-11-08 01:50:32,097 DEBUG Module run queue is empty
+2015-11-08 01:50:32,097 DEBUG si_dispatch - depth: 1, time: 0.0496151447296
+2015-11-08 01:50:32,098 DEBUG si_dispatch - depth: 1, time: 0.0977082252502
+2015-11-08 01:50:32,100 DEBUG si_dispatch - Attempting to dispatch - uid: 91754b5c-b87a-4fae-af57-4e4a16b016e4, filename: malware/Lab13-02.exe, source module: 
+2015-11-08 01:50:32,102 DEBUG Module run queue is empty
+2015-11-08 01:50:32,102 DEBUG Module run queue is empty
+2015-11-08 01:50:32,105 DEBUG si_dispatch - depth: 1, time: 0.0532720088959
+2015-11-08 01:50:32,105 DEBUG si_dispatch - depth: 1, time: 0.0858519077301
+2015-11-08 01:50:32,085 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,105 DEBUG si_dispatch - depth: 1, time: 0.046530008316
+2015-11-08 01:50:32,107 DEBUG si_dispatch - depth: 1, time: 0.0914499759674
+2015-11-08 01:50:32,103 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 24677caf-98a6-4811-8cb4-af0dee6532f2, filename malware/Lab05-01.py with args {}
+2015-11-08 01:50:32,108 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,108 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,106 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,109 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 528607ed-2441-44bb-b8c5-2369adbed715, filename malware/Lab01-01.exe with args {}
+2015-11-08 01:50:32,110 DEBUG Module run queue is empty
+2015-11-08 01:50:32,110 DEBUG attempting conditional disposition on malware/Lab01-01.exe with  uID: 528607ed-2441-44bb-b8c5-2369adbed715 parent: 
+2015-11-08 01:50:32,110 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,111 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab01-01.exe'}
+2015-11-08 01:50:32,112 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,112 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab13-02.exe'}
+2015-11-08 01:50:32,115 DEBUG si_dispatch - Attempting to dispatch - uid: aef95ec3-7d85-4de0-ba1b-b22114b58eaf, filename: malware/Lab01-02.exe, source module: 
+2015-11-08 01:50:32,116 DEBUG si_dispatch - Attempting to dispatch - uid: 6043a75d-2bc0-4f1c-ae85-adefdb2d809a, filename: malware/Lab09-03.exe, source module: 
+2015-11-08 01:50:32,119 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,119 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab09-03.exe'}
+2015-11-08 01:50:32,113 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 91754b5c-b87a-4fae-af57-4e4a16b016e4, filename malware/Lab13-02.exe with args {}
+2015-11-08 01:50:32,120 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,093 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,121 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab10-03.sys'}
+2015-11-08 01:50:32,121 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,121 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,122 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 7d6484f8-8aee-4f79-824b-a5319bc9caae, filename malware/Lab10-03.sys with args {}
+2015-11-08 01:50:32,122 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,122 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,123 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 7d6484f8-8aee-4f79-824b-a5319bc9caae, filename malware/Lab10-03.sys with args {}
+2015-11-08 01:50:32,118 DEBUG si_dispatch - Attempting to dispatch - uid: da0eac85-455d-454a-b115-c93b8ba0fb64, filename: malware/Lab03-02.dll, source module: 
+2015-11-08 01:50:32,125 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,126 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab03-02.dll'}
+2015-11-08 01:50:32,117 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 24677caf-98a6-4811-8cb4-af0dee6532f2, filename malware/Lab05-01.py with args {}
+2015-11-08 01:50:32,128 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,129 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab20-02.exe'}
+2015-11-08 01:50:32,111 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,130 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,131 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 528607ed-2441-44bb-b8c5-2369adbed715, filename malware/Lab01-01.exe with args {}
+2015-11-08 01:50:32,131 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,131 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,132 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 528607ed-2441-44bb-b8c5-2369adbed715, filename malware/Lab01-01.exe with args {}
+2015-11-08 01:50:32,133 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,133 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab01-02.exe'}
+2015-11-08 01:50:32,134 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: aef95ec3-7d85-4de0-ba1b-b22114b58eaf, filename malware/Lab01-02.exe with args {}
+2015-11-08 01:50:32,134 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,134 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,135 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,135 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: aef95ec3-7d85-4de0-ba1b-b22114b58eaf, filename malware/Lab01-02.exe with args {}
+2015-11-08 01:50:32,136 DEBUG Module run queue is empty
+2015-11-08 01:50:32,136 DEBUG attempting conditional disposition on malware/Lab01-02.exe with  uID: aef95ec3-7d85-4de0-ba1b-b22114b58eaf parent: 
+2015-11-08 01:50:32,136 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,137 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 6043a75d-2bc0-4f1c-ae85-adefdb2d809a, filename malware/Lab09-03.exe with args {}
+2015-11-08 01:50:32,138 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,138 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,138 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,120 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,139 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,140 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 91754b5c-b87a-4fae-af57-4e4a16b016e4, filename malware/Lab13-02.exe with args {}
+2015-11-08 01:50:32,141 DEBUG Module run queue is empty
+2015-11-08 01:50:32,141 DEBUG si_dispatch - depth: 1, time: 0.0542140007019
+2015-11-08 01:50:32,144 DEBUG si_dispatch - depth: 1, time: 0.12056016922
+2015-11-08 01:50:32,150 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: da0eac85-455d-454a-b115-c93b8ba0fb64, filename malware/Lab03-02.dll with args {}
+2015-11-08 01:50:32,151 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,151 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,130 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,160 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,169 DEBUG Module run queue is empty
+2015-11-08 01:50:32,169 DEBUG attempting conditional disposition on malware/Lab13-02.exe with  uID: 91754b5c-b87a-4fae-af57-4e4a16b016e4 parent: 
+2015-11-08 01:50:32,170 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,170 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab13-02.exe'}
+2015-11-08 01:50:32,171 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,152 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,177 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: da0eac85-455d-454a-b115-c93b8ba0fb64, filename malware/Lab03-02.dll with args {}
+2015-11-08 01:50:32,178 DEBUG Module run queue is empty
+2015-11-08 01:50:32,178 DEBUG attempting conditional disposition on malware/Lab03-02.dll with  uID: da0eac85-455d-454a-b115-c93b8ba0fb64 parent: 
+2015-11-08 01:50:32,179 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,179 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab03-02.dll'}
+2015-11-08 01:50:32,180 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,180 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,180 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: da0eac85-455d-454a-b115-c93b8ba0fb64, filename malware/Lab03-02.dll with args {}
+2015-11-08 01:50:32,181 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 6043a75d-2bc0-4f1c-ae85-adefdb2d809a, filename malware/Lab09-03.exe with args {}
+2015-11-08 01:50:32,183 DEBUG Module run queue is empty
+2015-11-08 01:50:32,183 DEBUG attempting conditional disposition on malware/Lab09-03.exe with  uID: 6043a75d-2bc0-4f1c-ae85-adefdb2d809a parent: 
+2015-11-08 01:50:32,183 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,183 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab09-03.exe'}
+2015-11-08 01:50:32,184 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,187 DEBUG si_dispatch - Attempting to dispatch - uid: bd0623cb-e0f0-4267-a8c2-457ac4f3380b, filename: malware/Lab21-01.exe, source module: 
+2015-11-08 01:50:32,187 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,187 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab21-01.exe'}
+2015-11-08 01:50:32,188 DEBUG Module run queue is empty
+2015-11-08 01:50:32,189 DEBUG si_dispatch - depth: 1, time: 0.0672249794006
+2015-11-08 01:50:32,189 DEBUG si_dispatch - depth: 1, time: 0.11154294014
+2015-11-08 01:50:32,190 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab01-02.exe'}
+2015-11-08 01:50:32,191 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,191 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,192 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: aef95ec3-7d85-4de0-ba1b-b22114b58eaf, filename malware/Lab01-02.exe with args {}
+2015-11-08 01:50:32,192 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,192 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,193 DEBUG Module run queue is empty
+2015-11-08 01:50:32,194 DEBUG si_dispatch - depth: 1, time: 0.0629670619965
+2015-11-08 01:50:32,194 DEBUG si_dispatch - depth: 1, time: 0.11955499649
+2015-11-08 01:50:32,195 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: a060525c-7a2c-4341-93e9-59b17a1d9dda, filename malware/Lab20-02.exe with args {}
+2015-11-08 01:50:32,196 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,197 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,198 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: a060525c-7a2c-4341-93e9-59b17a1d9dda, filename malware/Lab20-02.exe with args {}
+2015-11-08 01:50:32,184 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,201 DEBUG si_dispatch - Attempting to dispatch - uid: a6c61e9d-7771-4bc6-8adf-92de6dd9d807, filename: malware/Lab09-02.exe, source module: 
+2015-11-08 01:50:32,202 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,202 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab09-02.exe'}
+2015-11-08 01:50:32,203 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: a6c61e9d-7771-4bc6-8adf-92de6dd9d807, filename malware/Lab09-02.exe with args {}
+2015-11-08 01:50:32,203 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,203 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,203 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,204 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: a6c61e9d-7771-4bc6-8adf-92de6dd9d807, filename malware/Lab09-02.exe with args {}
+2015-11-08 01:50:32,197 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: bd0623cb-e0f0-4267-a8c2-457ac4f3380b, filename malware/Lab21-01.exe with args {}
+2015-11-08 01:50:32,205 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,205 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,205 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,206 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: bd0623cb-e0f0-4267-a8c2-457ac4f3380b, filename malware/Lab21-01.exe with args {}
+2015-11-08 01:50:32,207 DEBUG si_dispatch - Attempting to dispatch - uid: 9598ed19-f09e-48f4-8412-fcb3c1ac34f7, filename: malware/Lab17-02.dll, source module: 
+2015-11-08 01:50:32,207 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,208 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab17-02.dll'}
+2015-11-08 01:50:32,200 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 6043a75d-2bc0-4f1c-ae85-adefdb2d809a, filename malware/Lab09-03.exe with args {}
+2015-11-08 01:50:32,209 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,209 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,210 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 6043a75d-2bc0-4f1c-ae85-adefdb2d809a, filename malware/Lab09-03.exe with args {}
+2015-11-08 01:50:32,210 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: aef95ec3-7d85-4de0-ba1b-b22114b58eaf, filename malware/Lab01-02.exe with args {}
+2015-11-08 01:50:32,212 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,213 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,213 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: da0eac85-455d-454a-b115-c93b8ba0fb64, filename malware/Lab03-02.dll with args {}
+2015-11-08 01:50:32,217 DEBUG Module run queue is empty
+2015-11-08 01:50:32,218 DEBUG si_dispatch - depth: 1, time: 0.0492479801178
+2015-11-08 01:50:32,218 DEBUG si_dispatch - depth: 1, time: 0.135297060013
+2015-11-08 01:50:32,216 DEBUG Module run queue is empty
+2015-11-08 01:50:32,219 DEBUG attempting conditional disposition on malware/Lab21-01.exe with  uID: bd0623cb-e0f0-4267-a8c2-457ac4f3380b parent: 
+2015-11-08 01:50:32,220 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,220 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab21-01.exe'}
+2015-11-08 01:50:32,221 DEBUG Module run queue is empty
+2015-11-08 01:50:32,222 DEBUG si_dispatch - depth: 1, time: 0.030021905899
+2015-11-08 01:50:32,222 DEBUG si_dispatch - depth: 1, time: 0.106822013855
+2015-11-08 01:50:32,208 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 9598ed19-f09e-48f4-8412-fcb3c1ac34f7, filename malware/Lab17-02.dll with args {}
+2015-11-08 01:50:32,224 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,224 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,172 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,225 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 91754b5c-b87a-4fae-af57-4e4a16b016e4, filename malware/Lab13-02.exe with args {}
+2015-11-08 01:50:32,225 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,225 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,226 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 91754b5c-b87a-4fae-af57-4e4a16b016e4, filename malware/Lab13-02.exe with args {}
+2015-11-08 01:50:32,228 DEBUG si_dispatch - Attempting to dispatch - uid: 8c7f2d67-1886-4c1a-be72-465d59001d97, filename: malware/Lab10-02.exe, source module: 
+2015-11-08 01:50:32,229 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,229 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,230 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: bd0623cb-e0f0-4267-a8c2-457ac4f3380b, filename malware/Lab21-01.exe with args {}
+2015-11-08 01:50:32,230 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,230 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,231 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: bd0623cb-e0f0-4267-a8c2-457ac4f3380b, filename malware/Lab21-01.exe with args {}
+2015-11-08 01:50:32,224 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,233 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 9598ed19-f09e-48f4-8412-fcb3c1ac34f7, filename malware/Lab17-02.dll with args {}
+2015-11-08 01:50:32,233 DEBUG Module run queue is empty
+2015-11-08 01:50:32,234 DEBUG attempting conditional disposition on malware/Lab17-02.dll with  uID: 9598ed19-f09e-48f4-8412-fcb3c1ac34f7 parent: 
+2015-11-08 01:50:32,234 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,234 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab17-02.dll'}
+2015-11-08 01:50:32,235 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,235 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,235 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 9598ed19-f09e-48f4-8412-fcb3c1ac34f7, filename malware/Lab17-02.dll with args {}
+2015-11-08 01:50:32,236 DEBUG Module run queue is empty
+2015-11-08 01:50:32,238 DEBUG si_dispatch - depth: 1, time: 0.0379810333252
+2015-11-08 01:50:32,238 DEBUG si_dispatch - depth: 1, time: 0.122388839722
+2015-11-08 01:50:32,238 DEBUG Module run queue is empty
+2015-11-08 01:50:32,240 DEBUG attempting conditional disposition on malware/Lab09-02.exe with  uID: a6c61e9d-7771-4bc6-8adf-92de6dd9d807 parent: 
+2015-11-08 01:50:32,240 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,251 DEBUG Module run queue is empty
+2015-11-08 01:50:32,251 DEBUG si_dispatch - depth: 1, time: 0.0707020759583
+2015-11-08 01:50:32,252 DEBUG si_dispatch - depth: 1, time: 0.133803844452
+2015-11-08 01:50:32,248 DEBUG si_dispatch - Attempting to dispatch - uid: 08fe964d-1daa-469c-a879-3906570c9f04, filename: malware/Lab11-03.dll, source module: 
+2015-11-08 01:50:32,257 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,258 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab11-03.dll'}
+2015-11-08 01:50:32,258 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 08fe964d-1daa-469c-a879-3906570c9f04, filename malware/Lab11-03.dll with args {}
+2015-11-08 01:50:32,259 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,260 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab10-02.exe'}
+2015-11-08 01:50:32,264 DEBUG si_dispatch - Attempting to dispatch - uid: 1bcf9cb7-2b07-4d60-a23a-9bb430c908a7, filename: malware/Lab07-03.exe, source module: 
+2015-11-08 01:50:32,256 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab09-02.exe'}
+2015-11-08 01:50:32,265 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,265 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,266 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: a6c61e9d-7771-4bc6-8adf-92de6dd9d807, filename malware/Lab09-02.exe with args {}
+2015-11-08 01:50:32,266 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,267 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,267 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: a6c61e9d-7771-4bc6-8adf-92de6dd9d807, filename malware/Lab09-02.exe with args {}
+2015-11-08 01:50:32,270 DEBUG Module run queue is empty
+2015-11-08 01:50:32,271 DEBUG si_dispatch - depth: 1, time: 0.0458188056946
+2015-11-08 01:50:32,271 DEBUG si_dispatch - depth: 1, time: 0.170918941498
+2015-11-08 01:50:32,275 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 8c7f2d67-1886-4c1a-be72-465d59001d97, filename malware/Lab10-02.exe with args {}
+2015-11-08 01:50:32,275 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,276 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,276 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,277 DEBUG si_dispatch - Attempting to dispatch - uid: 21a892c7-993a-4ff9-9b65-960db0205c5f, filename: malware/Lab16-03.exe, source module: 
+2015-11-08 01:50:32,278 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,278 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab16-03.exe'}
+2015-11-08 01:50:32,279 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 21a892c7-993a-4ff9-9b65-960db0205c5f, filename malware/Lab16-03.exe with args {}
+2015-11-08 01:50:32,279 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,279 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,280 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,281 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,281 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab07-03.exe'}
+2015-11-08 01:50:32,282 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 1bcf9cb7-2b07-4d60-a23a-9bb430c908a7, filename malware/Lab07-03.exe with args {}
+2015-11-08 01:50:32,282 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,283 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,283 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,283 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 1bcf9cb7-2b07-4d60-a23a-9bb430c908a7, filename malware/Lab07-03.exe with args {}
+2015-11-08 01:50:32,284 DEBUG Module run queue is empty
+2015-11-08 01:50:32,285 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,285 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,286 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,286 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 08fe964d-1daa-469c-a879-3906570c9f04, filename malware/Lab11-03.dll with args {}
+2015-11-08 01:50:32,281 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,288 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,288 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 9598ed19-f09e-48f4-8412-fcb3c1ac34f7, filename malware/Lab17-02.dll with args {}
+2015-11-08 01:50:32,289 DEBUG Module run queue is empty
+2015-11-08 01:50:32,290 DEBUG si_dispatch - depth: 1, time: 0.0599851608276
+2015-11-08 01:50:32,292 DEBUG Module run queue is empty
+2015-11-08 01:50:32,293 DEBUG attempting conditional disposition on malware/Lab11-03.dll with  uID: 08fe964d-1daa-469c-a879-3906570c9f04 parent: 
+2015-11-08 01:50:32,293 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,293 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab11-03.dll'}
+2015-11-08 01:50:32,293 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,294 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,294 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 08fe964d-1daa-469c-a879-3906570c9f04, filename malware/Lab11-03.dll with args {}
+2015-11-08 01:50:32,294 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,295 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,295 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 08fe964d-1daa-469c-a879-3906570c9f04, filename malware/Lab11-03.dll with args {}
+2015-11-08 01:50:32,297 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 8c7f2d67-1886-4c1a-be72-465d59001d97, filename malware/Lab10-02.exe with args {}
+2015-11-08 01:50:32,298 DEBUG Module run queue is empty
+2015-11-08 01:50:32,298 DEBUG attempting conditional disposition on malware/Lab10-02.exe with  uID: 8c7f2d67-1886-4c1a-be72-465d59001d97 parent: 
+2015-11-08 01:50:32,299 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,299 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab10-02.exe'}
+2015-11-08 01:50:32,299 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,299 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,300 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 8c7f2d67-1886-4c1a-be72-465d59001d97, filename malware/Lab10-02.exe with args {}
+2015-11-08 01:50:32,300 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,300 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,302 DEBUG si_dispatch - Attempting to dispatch - uid: dba9dd96-7099-47b0-9a60-4f35b25a0842, filename: malware/Lab09-01.exe, source module: 
+2015-11-08 01:50:32,302 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,303 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab09-01.exe'}
+2015-11-08 01:50:32,303 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: dba9dd96-7099-47b0-9a60-4f35b25a0842, filename malware/Lab09-01.exe with args {}
+2015-11-08 01:50:32,304 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: dba9dd96-7099-47b0-9a60-4f35b25a0842, filename malware/Lab09-01.exe with args {}
+2015-11-08 01:50:32,290 DEBUG si_dispatch - depth: 1, time: 0.103554010391
+2015-11-08 01:50:32,319 DEBUG si_dispatch - Attempting to dispatch - uid: c87cb685-4880-42be-a5b0-da8df7372716, filename: malware/Lab20-03.exe, source module: 
+2015-11-08 01:50:32,319 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,320 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab20-03.exe'}
+2015-11-08 01:50:32,320 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: c87cb685-4880-42be-a5b0-da8df7372716, filename malware/Lab20-03.exe with args {}
+2015-11-08 01:50:32,312 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 21a892c7-993a-4ff9-9b65-960db0205c5f, filename malware/Lab16-03.exe with args {}
+2015-11-08 01:50:32,312 DEBUG Module run queue is empty
+2015-11-08 01:50:32,313 DEBUG Module run queue is empty
+2015-11-08 01:50:32,322 DEBUG si_dispatch - depth: 1, time: 0.0865678787231
+2015-11-08 01:50:32,322 DEBUG si_dispatch - depth: 1, time: 0.11581993103
+2015-11-08 01:50:32,314 DEBUG attempting conditional disposition on malware/Lab07-03.exe with  uID: 1bcf9cb7-2b07-4d60-a23a-9bb430c908a7 parent: 
+2015-11-08 01:50:32,324 DEBUG Module run queue is empty
+2015-11-08 01:50:32,325 DEBUG attempting conditional disposition on malware/Lab16-03.exe with  uID: 21a892c7-993a-4ff9-9b65-960db0205c5f parent: 
+2015-11-08 01:50:32,325 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,325 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab16-03.exe'}
+2015-11-08 01:50:32,325 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,326 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,326 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 21a892c7-993a-4ff9-9b65-960db0205c5f, filename malware/Lab16-03.exe with args {}
+2015-11-08 01:50:32,326 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,327 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,327 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 21a892c7-993a-4ff9-9b65-960db0205c5f, filename malware/Lab16-03.exe with args {}
+2015-11-08 01:50:32,322 DEBUG si_dispatch - depth: 1, time: 0.055853843689
+2015-11-08 01:50:32,328 DEBUG si_dispatch - depth: 1, time: 0.126861095428
+2015-11-08 01:50:32,330 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,330 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,330 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,330 DEBUG Module run queue is empty
+2015-11-08 01:50:32,331 DEBUG attempting conditional disposition on malware/Lab09-01.exe with  uID: dba9dd96-7099-47b0-9a60-4f35b25a0842 parent: 
+2015-11-08 01:50:32,331 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,331 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab09-01.exe'}
+2015-11-08 01:50:32,332 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,332 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,332 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,333 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab07-03.exe'}
+2015-11-08 01:50:32,333 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,333 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,334 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 1bcf9cb7-2b07-4d60-a23a-9bb430c908a7, filename malware/Lab07-03.exe with args {}
+2015-11-08 01:50:32,334 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,335 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,335 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 1bcf9cb7-2b07-4d60-a23a-9bb430c908a7, filename malware/Lab07-03.exe with args {}
+2015-11-08 01:50:32,339 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 8c7f2d67-1886-4c1a-be72-465d59001d97, filename malware/Lab10-02.exe with args {}
+2015-11-08 01:50:32,321 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,341 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,341 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,341 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: c87cb685-4880-42be-a5b0-da8df7372716, filename malware/Lab20-03.exe with args {}
+2015-11-08 01:50:32,342 DEBUG Module run queue is empty
+2015-11-08 01:50:32,342 DEBUG attempting conditional disposition on malware/Lab20-03.exe with  uID: c87cb685-4880-42be-a5b0-da8df7372716 parent: 
+2015-11-08 01:50:32,345 DEBUG si_dispatch - Attempting to dispatch - uid: 67fcb54a-7a87-46ac-8ff6-4fb889b258f3, filename: malware/Lab19-02.exe, source module: 
+2015-11-08 01:50:32,345 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,346 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab19-02.exe'}
+2015-11-08 01:50:32,346 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 67fcb54a-7a87-46ac-8ff6-4fb889b258f3, filename malware/Lab19-02.exe with args {}
+2015-11-08 01:50:32,347 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,347 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,347 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,347 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 67fcb54a-7a87-46ac-8ff6-4fb889b258f3, filename malware/Lab19-02.exe with args {}
+2015-11-08 01:50:32,351 DEBUG si_dispatch - Attempting to dispatch - uid: 8bd73ebe-c7a7-40b9-9571-d4da574c8b81, filename: malware/Lab11-03.exe, source module: 
+2015-11-08 01:50:32,351 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,351 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab11-03.exe'}
+2015-11-08 01:50:32,352 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: 8bd73ebe-c7a7-40b9-9571-d4da574c8b81, filename malware/Lab11-03.exe with args {}
+2015-11-08 01:50:32,357 DEBUG Module run queue is empty
+2015-11-08 01:50:32,365 DEBUG si_dispatch - depth: 1, time: 0.0708320140839
+2015-11-08 01:50:32,365 DEBUG si_dispatch - depth: 1, time: 0.117728948593
+2015-11-08 01:50:32,358 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: dba9dd96-7099-47b0-9a60-4f35b25a0842, filename malware/Lab09-01.exe with args {}
+2015-11-08 01:50:32,366 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,367 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,367 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: dba9dd96-7099-47b0-9a60-4f35b25a0842, filename malware/Lab09-01.exe with args {}
+2015-11-08 01:50:32,359 DEBUG Module run queue is empty
+2015-11-08 01:50:32,368 DEBUG si_dispatch - depth: 1, time: 0.0686159133911
+2015-11-08 01:50:32,369 DEBUG si_dispatch - depth: 1, time: 0.141299009323
+2015-11-08 01:50:32,343 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,370 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab20-03.exe'}
+2015-11-08 01:50:32,371 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,371 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,372 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: c87cb685-4880-42be-a5b0-da8df7372716, filename malware/Lab20-03.exe with args {}
+2015-11-08 01:50:32,372 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,373 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: 8bd73ebe-c7a7-40b9-9571-d4da574c8b81, filename malware/Lab11-03.exe with args {}
+2015-11-08 01:50:32,379 DEBUG si_dispatch - Attempting to dispatch - uid: f9708302-9a34-4212-8db3-aae6d986db51, filename: malware/Lab18-03.exe, source module: 
+2015-11-08 01:50:32,380 DEBUG Module run queue is empty
+2015-11-08 01:50:32,380 DEBUG attempting conditional disposition on malware/Lab19-02.exe with  uID: 67fcb54a-7a87-46ac-8ff6-4fb889b258f3 parent: 
+2015-11-08 01:50:32,382 DEBUG Module run queue is empty
+2015-11-08 01:50:32,382 DEBUG si_dispatch - depth: 1, time: 0.0483829975128
+2015-11-08 01:50:32,382 DEBUG si_dispatch - depth: 1, time: 0.119223833084
+2015-11-08 01:50:32,385 DEBUG Module run queue is empty
+2015-11-08 01:50:32,385 DEBUG si_dispatch - depth: 1, time: 0.0593149662018
+2015-11-08 01:50:32,386 DEBUG si_dispatch - depth: 1, time: 0.108649969101
+2015-11-08 01:50:32,374 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,389 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,389 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,390 DEBUG Module run queue is empty
+2015-11-08 01:50:32,390 DEBUG si_dispatch - Attempting to dispatch - uid: c1f747ce-7c95-4535-a92c-7e29e27a8dcb, filename: malware/Lab19-03.pdf, source module: 
+2015-11-08 01:50:32,391 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,391 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab19-03.pdf'}
+2015-11-08 01:50:32,392 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: c1f747ce-7c95-4535-a92c-7e29e27a8dcb, filename malware/Lab19-03.pdf with args {}
+2015-11-08 01:50:32,372 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,381 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,394 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab19-02.exe'}
+2015-11-08 01:50:32,395 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,395 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,396 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 67fcb54a-7a87-46ac-8ff6-4fb889b258f3, filename malware/Lab19-02.exe with args {}
+2015-11-08 01:50:32,397 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: c87cb685-4880-42be-a5b0-da8df7372716, filename malware/Lab20-03.exe with args {}
+2015-11-08 01:50:32,400 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,401 DEBUG Module run queue is empty
+2015-11-08 01:50:32,402 DEBUG si_dispatch - depth: 1, time: 0.0696449279785
+2015-11-08 01:50:32,402 DEBUG si_dispatch - depth: 1, time: 0.100491046906
+2015-11-08 01:50:32,406 DEBUG attempting conditional disposition on malware/Lab11-03.exe with  uID: 8bd73ebe-c7a7-40b9-9571-d4da574c8b81 parent: 
+2015-11-08 01:50:32,406 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,407 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab11-03.exe'}
+2015-11-08 01:50:32,407 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,407 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,408 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: 8bd73ebe-c7a7-40b9-9571-d4da574c8b81, filename malware/Lab11-03.exe with args {}
+2015-11-08 01:50:32,409 DEBUG si_dispatch - Attempting to dispatch - uid: a54a6460-c5c4-4658-a16d-4df4ef0075f1, filename: malware/Lab14-02.exe, source module: 
+2015-11-08 01:50:32,410 DEBUG util: doing on demand yara scan with rule: etc/framework/dispatch.yara
+2015-11-08 01:50:32,410 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab14-02.exe'}
+2015-11-08 01:50:32,410 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: a54a6460-c5c4-4658-a16d-4df4ef0075f1, filename malware/Lab14-02.exe with args {}
+2015-11-08 01:50:32,411 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,411 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,411 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,412 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: a54a6460-c5c4-4658-a16d-4df4ef0075f1, filename malware/Lab14-02.exe with args {}
+2015-11-08 01:50:32,400 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_flags': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_depth': 1, 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_filename': 'malware/Lab18-03.exe'}
+2015-11-08 01:50:32,413 DEBUG 11966 Got poison pill
+2015-11-08 01:50:32,417 DEBUG si_dispatch - Attempting to run module SCAN_YARA against - uid: f9708302-9a34-4212-8db3-aae6d986db51, filename malware/Lab18-03.exe with args {}
+2015-11-08 01:50:32,417 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,417 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,418 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,418 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: f9708302-9a34-4212-8db3-aae6d986db51, filename malware/Lab18-03.exe with args {}
+2015-11-08 01:50:32,419 DEBUG Module run queue is empty
+2015-11-08 01:50:32,419 DEBUG attempting conditional disposition on malware/Lab18-03.exe with  uID: f9708302-9a34-4212-8db3-aae6d986db51 parent: 
+2015-11-08 01:50:32,419 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,419 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab18-03.exe'}
+2015-11-08 01:50:32,420 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,420 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,420 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: f9708302-9a34-4212-8db3-aae6d986db51, filename malware/Lab18-03.exe with args {}
+2015-11-08 01:50:32,421 DEBUG EXTERNAL VARS: {}
+2015-11-08 01:50:32,421 DEBUG util: doing on demand yara scan with rule: etc/modules/signatures.yara
+2015-11-08 01:50:32,422 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,422 DEBUG si_dispatch - Attempting to run module META_HASH against - uid: c1f747ce-7c95-4535-a92c-7e29e27a8dcb, filename malware/Lab19-03.pdf with args {}
+2015-11-08 01:50:32,396 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,423 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,424 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 67fcb54a-7a87-46ac-8ff6-4fb889b258f3, filename malware/Lab19-02.exe with args {}
+2015-11-08 01:50:32,426 DEBUG Module run queue is empty
+2015-11-08 01:50:32,426 DEBUG si_dispatch - depth: 1, time: 0.0544648170471
+2015-11-08 01:50:32,426 DEBUG si_dispatch - depth: 1, time: 0.107722043991
+2015-11-08 01:50:32,429 DEBUG 11968 Got poison pill
+2015-11-08 01:50:32,408 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,441 DEBUG Module run queue is empty
+2015-11-08 01:50:32,442 DEBUG attempting conditional disposition on malware/Lab19-03.pdf with  uID: c1f747ce-7c95-4535-a92c-7e29e27a8dcb parent: 
+2015-11-08 01:50:32,442 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,442 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab19-03.pdf'}
+2015-11-08 01:50:32,443 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,443 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,443 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: c1f747ce-7c95-4535-a92c-7e29e27a8dcb, filename malware/Lab19-03.pdf with args {}
+2015-11-08 01:50:32,444 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,444 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,436 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,446 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: 8bd73ebe-c7a7-40b9-9571-d4da574c8b81, filename malware/Lab11-03.exe with args {}
+2015-11-08 01:50:32,448 DEBUG 11965 Got poison pill
+2015-11-08 01:50:32,449 DEBUG Module run queue is empty
+2015-11-08 01:50:32,450 DEBUG attempting conditional disposition on malware/Lab14-02.exe with  uID: a54a6460-c5c4-4658-a16d-4df4ef0075f1 parent: 
+2015-11-08 01:50:32,450 DEBUG util: doing on demand yara scan with rule: etc/framework/conditional-dispatch.yara
+2015-11-08 01:50:32,450 DEBUG util: externalVars: {'ext_timestamp': 'NONE', 'ext_sourceModule': 'NONE', 'ext_parentModules': 'NONE', 'ext_source': 'CLI', 'ext_fileType': 'NONE', 'ext_size': 0, 'ext_contentType': 'NONE', 'ext_depth': 1, 'ext_filename': 'malware/Lab14-02.exe'}
+2015-11-08 01:50:32,451 DEBUG Rule send_to_fluent set priority 50
+2015-11-08 01:50:32,451 DEBUG Rule DISPOSITION_FILE set priority 10
+2015-11-08 01:50:32,451 DEBUG si_dispatch - Attempting to run module DISPOSITIONER against - uid: a54a6460-c5c4-4658-a16d-4df4ef0075f1, filename malware/Lab14-02.exe with args {}
+2015-11-08 01:50:32,452 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,452 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,455 DEBUG Module run queue is empty
+2015-11-08 01:50:32,455 DEBUG si_dispatch - depth: 1, time: 0.0596611499786
+2015-11-08 01:50:32,456 DEBUG si_dispatch - depth: 1, time: 0.110948085785
+2015-11-08 01:50:32,421 DEBUG util: doing on demand yara scan with rule: etc/modules/disposition.yara
+2015-11-08 01:50:32,465 DEBUG util: externalVars: {}
+2015-11-08 01:50:32,466 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: f9708302-9a34-4212-8db3-aae6d986db51, filename malware/Lab18-03.exe with args {}
+2015-11-08 01:50:32,470 DEBUG 11964 Got poison pill
+2015-11-08 01:50:32,475 DEBUG Module run queue is empty
+2015-11-08 01:50:32,475 DEBUG si_dispatch - depth: 1, time: 0.0674779415131
+2015-11-08 01:50:32,476 DEBUG si_dispatch - depth: 1, time: 0.125727176666
+2015-11-08 01:50:32,477 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: c1f747ce-7c95-4535-a92c-7e29e27a8dcb, filename malware/Lab19-03.pdf with args {}
+2015-11-08 01:50:32,484 DEBUG si_dispatch - Attempting to run module LOG_FLUENT against - uid: a54a6460-c5c4-4658-a16d-4df4ef0075f1, filename malware/Lab14-02.exe with args {}
+2015-11-08 01:50:32,493 DEBUG 11961 Got poison pill
+2015-11-08 01:50:32,491 DEBUG Module run queue is empty
+2015-11-08 01:50:32,499 DEBUG si_dispatch - depth: 1, time: 0.0787320137024
+2015-11-08 01:50:32,499 DEBUG si_dispatch - depth: 1, time: 0.120678901672
+2015-11-08 01:50:32,502 DEBUG Module run queue is empty
+2015-11-08 01:50:32,502 DEBUG si_dispatch - depth: 1, time: 0.0589289665222
+2015-11-08 01:50:32,502 DEBUG si_dispatch - depth: 1, time: 0.112347126007
+2015-11-08 01:50:32,505 DEBUG Module run queue is empty
+2015-11-08 01:50:32,510 DEBUG si_dispatch - depth: 1, time: 0.0587239265442
+2015-11-08 01:50:32,511 DEBUG si_dispatch - depth: 1, time: 0.101670026779
+2015-11-08 01:50:32,517 DEBUG 11962 Got poison pill
+2015-11-08 01:50:32,522 DEBUG 11967 Got poison pill
+2015-11-08 01:50:32,525 DEBUG 11963 Got poison pill

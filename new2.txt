@@ -1,0 +1,107 @@
+{
+  "uniqID": "",
+  "order": 0,
+  "rootUID": "3b599704-2367-4f55-a7e8-15e63104c56b",
+  "origRootUID": "",
+  "scanTime": 1444108860,
+  "objectHash": "2a9d0d06d292a4cbbe4a95da4650ed54",
+  "parent": "",
+  "uuid": "3b599704-2367-4f55-a7e8-15e63104c56b",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "2a9d0d06d292a4cbbe4a95da4650ed54",
+        "SHA1": "44c32dfae9ac971c3651adbd82c821971a5400dc",
+        "SHA512": "ed15670a18bffa1c5c1d79f1a5a653d6b2bde649164c955473580321f4ab3d048124c26e1a92e9d8ba0edaf754617d2d2c13d8db92323e09957b6de225b5314d",
+        "SHA256": "09a1c17ac55cde962b4f3bcd61140d752d86362296ee74736000a6a647c73d8c",
+        "ssdeep": "1536:jWZpTtLcWyeYd4//yEZc1GJf7/QP4uirySj5e:+pZTvnyEZiGJ7/QguiryS5e"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": [
+        "send_to_fluent (50)",
+        "DISPOSITION_FILE (10)"
+      ],
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)",
+        "type_is_mz (9)",
+        "META_EXIFTOOL (9)"
+      ]
+    },
+    "META_EXIFTOOL": {
+      "EXE:ProductVersionNumber": "1.0.0.1",
+      "ExifTool:ExifToolVersion": 9.46,
+      "EXE:LanguageCode": "0804",
+      "EXE:UninitializedDataSize": 0,
+      "File:FileInodeChangeDate": "2015:10:06 01:21:00-04:00",
+      "EXE:Comments": "",
+      "EXE:CodeSize": 0,
+      "EXE:SubsystemVersion": 4,
+      "EXE:EntryPoint": 5538,
+      "EXE:FileDescription": "搜狗拼音输入法 设置程序",
+      "File:Directory": "/dev/shm/laika_tmp",
+      "EXE:Subsystem": 2,
+      "EXE:FileOS": 262148,
+      "EXE:MachineType": 332,
+      "EXE:CharacterSet": "04B0",
+      "File:FileSize": 72704,
+      "EXE:FileVersion": "5.0.0.3787",
+      "EXE:FileVersionNumber": "1.0.0.1",
+      "File:FileModifyDate": "2015:10:06 01:21:00-04:00",
+      "EXE:InitializedDataSize": 71680,
+      "EXE:FileSubtype": 0,
+      "File:FilePermissions": 600,
+      "EXE:OriginalFilename": "Config.exe",
+      "SourceFile": "/dev/shm/laika_tmp/tmp1FyJdT",
+      "EXE:InternalName": "SogouPY Config",
+      "EXE:ProductName": "搜狗拼音输入法",
+      "File:MIMEType": "application/octet-stream",
+      "File:FileAccessDate": "2015:10:06 01:21:00-04:00",
+      "EXE:LegalTrademarks": "",
+      "EXE:ProductVersion": "5.0.0.3787",
+      "EXE:ObjectFileType": 1,
+      "EXE:PrivateBuild": "",
+      "File:FileType": "Win32 EXE",
+      "EXE:CompanyName": "Sogou.com Inc.",
+      "File:FileName": "tmp1FyJdT",
+      "EXE:ImageVersion": 0,
+      "EXE:SpecialBuild": "",
+      "EXE:OSVersion": 4,
+      "EXE:PEType": 267,
+      "EXE:TimeStamp": "2011:03:22 11:36:10-04:00",
+      "EXE:FileFlagsMask": 63,
+      "EXE:LegalCopyright": "? 2010 Sogou.com Inc. All rights reserved.",
+      "EXE:LinkerVersion": 6,
+      "EXE:FileFlags": 0
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 72704,
+  "fileType": [
+    "pe"
+  ],
+  "level": 2,
+  "filename": "0.exe",
+  "depth": 0,
+  "sourceModule": "",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "SCAN_YARA",
+    "META_HASH",
+    "META_PE",
+    "META_EXIFTOOL",
+    "DISPOSITIONER",
+    "LOG_FLUENT"
+  ]
+}

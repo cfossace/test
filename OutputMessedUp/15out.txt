@@ -1,0 +1,275 @@
+{
+  "uniqID": "",
+  "order": 0,
+  "rootUID": "73dc38cf-b9e5-467a-acc7-d5105307d03d",
+  "origRootUID": "",
+  "scanTime": 1446427498,
+  "objectHash": "d41d8cd98f00b204e9800998ecf8427e",
+  "parent": "",
+  "uuid": "73dc38cf-b9e5-467a-acc7-d5105307d03d",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "SHA1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "SHA512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+        "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "ssdeep": "3::"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": [
+        "send_to_fluent (50)",
+        "DISPOSITION_FILE (10)"
+      ],
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 0,
+  "fileType": [],
+  "level": 2,
+  "filename": "/home/wildcat/Lockheed/laikaboss/malware/.fr-1KQh8k/Practical Malware Analysis Labs/BinaryCollection/Chapter_1L/Lab01-01.dll",
+  "depth": 0,
+  "sourceModule": "",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "SCAN_YARA",
+    "META_HASH",
+    "DISPOSITIONER",
+    "LOG_FLUENT"
+  ]
+}
+{
+  "uniqID": "",
+  "order": 0,
+  "rootUID": "63c00237-7f2e-4bb7-88fb-9c6d79ee02ed",
+  "origRootUID": "",
+  "scanTime": 1446427498,
+  "objectHash": "d41d8cd98f00b204e9800998ecf8427e",
+  "parent": "",
+  "uuid": "63c00237-7f2e-4bb7-88fb-9c6d79ee02ed",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "SHA1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "SHA512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+        "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "ssdeep": "3::"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": [
+        "send_to_fluent (50)",
+        "DISPOSITION_FILE (10)"
+      ],
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 0,
+  "fileType": [],
+  "level": 2,
+  "filename": "/home/wildcat/Lockheed/laikaboss/malware/.fr-1KQh8k/Practical Malware Analysis Labs/BinaryCollection/Chapter_1L/Lab01-03.exe",
+  "depth": 0,
+  "sourceModule": "",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "SCAN_YARA",
+    "META_HASH",
+    "DISPOSITIONER",
+    "LOG_FLUENT"
+  ]
+}
+{
+  "uniqID": "",
+  "order": 0,
+  "rootUID": "1999ccfd-9f7e-4148-9230-e1698da363d5",
+  "origRootUID": "",
+  "scanTime": 1446427498,
+  "objectHash": "d41d8cd98f00b204e9800998ecf8427e",
+  "parent": "",
+  "uuid": "1999ccfd-9f7e-4148-9230-e1698da363d5",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "SHA1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "SHA512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+        "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "ssdeep": "3::"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": [
+        "send_to_fluent (50)",
+        "DISPOSITION_FILE (10)"
+      ],
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 0,
+  "fileType": [],
+  "level": 2,
+  "filename": "/home/wildcat/Lockheed/laikaboss/malware/.fr-1KQh8k/Practical Malware Analysis Labs/BinaryCollection/Chapter_1L/Lab01-04.exe",
+  "depth": 0,
+  "sourceModule": "",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "SCAN_YARA",
+    "META_HASH",
+    "DISPOSITIONER",
+    "LOG_FLUENT"
+  ]
+}
+{
+  "uniqID": "",
+  "order": 0,
+  "rootUID": "3761a92c-7ae6-4497-8e2f-ab36165c4428",
+  "origRootUID": "",
+  "scanTime": 1446427498,
+  "objectHash": "d41d8cd98f00b204e9800998ecf8427e",
+  "parent": "",
+  "uuid": "3761a92c-7ae6-4497-8e2f-ab36165c4428",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "SHA1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "SHA512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+        "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "ssdeep": "3::"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": [
+        "send_to_fluent (50)",
+        "DISPOSITION_FILE (10)"
+      ],
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 0,
+  "fileType": [],
+  "level": 2,
+  "filename": "/home/wildcat/Lockheed/laikaboss/malware/.fr-1KQh8k/Practical Malware Analysis Labs/BinaryCollection/Chapter_1L/Lab01-02.exe",
+  "depth": 0,
+  "sourceModule": "",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "SCAN_YARA",
+    "META_HASH",
+    "DISPOSITIONER",
+    "LOG_FLUENT"
+  ]
+}
+{
+  "uniqID": "",
+  "order": 0,
+  "rootUID": "c12b991f-3100-4992-a0dc-9b2921eb3f20",
+  "origRootUID": "",
+  "scanTime": 1446427498,
+  "objectHash": "d41d8cd98f00b204e9800998ecf8427e",
+  "parent": "",
+  "uuid": "c12b991f-3100-4992-a0dc-9b2921eb3f20",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "SHA1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "SHA512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+        "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "ssdeep": "3::"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": [
+        "send_to_fluent (50)",
+        "DISPOSITION_FILE (10)"
+      ],
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 0,
+  "fileType": [],
+  "level": 2,
+  "filename": "/home/wildcat/Lockheed/laikaboss/malware/.fr-1KQh8k/Practical Malware Analysis Labs/BinaryCollection/Chapter_1L/Lab01-01.exe",
+  "depth": 0,
+  "sourceModule": "",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "SCAN_YARA",
+    "META_HASH",
+    "DISPOSITIONER",
+    "LOG_FLUENT"
+  ]
+}

@@ -1,0 +1,996 @@
+{
+  "uniqID": "",
+  "order": 1,
+  "rootUID": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "origRootUID": "",
+  "scanTime": 1444138616,
+  "objectHash": "d41d8cd98f00b204e9800998ecf8427e",
+  "parent": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "uuid": "a4121359-24fb-4abb-8d04-4d90065d429a",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "SHA1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "SHA512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+        "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "ssdeep": "3::"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": "DISPOSITION_FILE (10)",
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 0,
+  "fileType": [],
+  "level": 2,
+  "filename": "e_zip_pyexiftool-master/",
+  "depth": 1,
+  "sourceModule": "EXPLODE_ZIP",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "META_HASH",
+    "SCAN_YARA",
+    "DISPOSITIONER"
+  ]
+}
+{
+  "uniqID": "",
+  "order": 10,
+  "rootUID": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "origRootUID": "",
+  "scanTime": 1444138616,
+  "objectHash": "d3db1e3802bd9653497932a3402a62ef",
+  "parent": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "uuid": "b49cee57-9456-41b7-b5b0-676f31283140",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "d3db1e3802bd9653497932a3402a62ef",
+        "SHA1": "cfe70f558cae67658cb842f7ac5abd86758a359e",
+        "SHA512": "1f923db2942d052c69d9543d019a4252aee1337a304acf860b8f742a570850ab242680f2303be3c0d0bddb0b01156a77be7592bd6c5a560c1f3127d2539590a4",
+        "SHA256": "801716f82252fff4ce0abf96a93538a884e36f802ef39abcd2f4ebb684d39cb3",
+        "ssdeep": "96:5trJll2s79cdMZLBrymZK43VROdZS7FhUl3cqML9IHovletq6ExwFlE0KX4Ywfh:Pnl2wjegKwoS7HiMqM2keCwTfh"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": "DISPOSITION_FILE (10)",
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Deny",
+        "Input_Flags": [
+          "yr:suspicious_sig_1",
+          "yr:informational_sig_1"
+        ],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": [
+          "Deny",
+          "Alert"
+        ]
+      }
+    }
+  },
+  "objectSize": 7772,
+  "fileType": [],
+  "level": 2,
+  "filename": "e_zip_pyexiftool-master/doc/conf.py",
+  "depth": 1,
+  "sourceModule": "EXPLODE_ZIP",
+  "flags": [
+    "yr:informational_sig_1",
+    "yr:suspicious_sig_1"
+  ],
+  "source": "CLI",
+  "scanModules": [
+    "META_HASH",
+    "SCAN_YARA",
+    "DISPOSITIONER"
+  ]
+}
+{
+  "uniqID": "",
+  "order": 11,
+  "rootUID": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "origRootUID": "",
+  "scanTime": 1444138616,
+  "objectHash": "25ccda6d952c9170fdb892959638514e",
+  "parent": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "uuid": "2be24bce-6383-49e0-9362-9d6a80b9c32e",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "25ccda6d952c9170fdb892959638514e",
+        "SHA1": "c6caa6c22d965245b3e015726dd71043aab42465",
+        "SHA512": "0b5f19812c8bbc6b742e1668a79857ce63247029ed2c8c8dee82cba3b043f94057494c970e5dab1c10e5f4b996761ae3d51f6898c9bd6ed612db88138f6fd3d0",
+        "SHA256": "02740a98c8b8355f2f5d4eea502840814d103620b0a0df9e9039839c923f94d1",
+        "ssdeep": "3:ncgOD8HIuRBQI+pM9HLHFzmCoR+R+Fx55wX02cgIMWRySMVAVQ1eZE5Fhti0KU0k:cDu99HLHXM+RaUXpcbRyKVguEa0n0FSX"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": "DISPOSITION_FILE (10)",
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 260,
+  "fileType": [],
+  "level": 2,
+  "filename": "e_zip_pyexiftool-master/doc/index.rst",
+  "depth": 1,
+  "sourceModule": "EXPLODE_ZIP",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "META_HASH",
+    "SCAN_YARA",
+    "DISPOSITIONER"
+  ]
+}
+{
+  "uniqID": "",
+  "order": 12,
+  "rootUID": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "origRootUID": "",
+  "scanTime": 1444138616,
+  "objectHash": "3fbf9315a42a3e78b20891321a1cf824",
+  "parent": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "uuid": "a2a81090-0fed-48f7-8c16-d6bfdfea889f",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "3fbf9315a42a3e78b20891321a1cf824",
+        "SHA1": "0b0848c006bf8a23ff54207d4ecbc6ad0fafcfa2",
+        "SHA512": "39099b9620fcd2cc1ee8d41f681dd65dd5552ebde7c4dd73fe40f12e15d84c595774f3de4fa7d8d25cde69bb3bd0241fede54a86a5bd11686508fc3bc55ee252",
+        "SHA256": "ed6d3950cc7e3a9f41d15c5b2ca3672bcb4bde6710af013ad70a03c077dd0beb",
+        "ssdeep": "192:iCPh+WlC80svrh5bzPt8V2Rh/J/GUYrf4kID0Wwd6buoq1LcO7jCe:iCMUC80sThZVFjpGUWf4dDxnuoSciCe"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": "DISPOSITION_FILE (10)",
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 12066,
+  "fileType": [],
+  "level": 2,
+  "filename": "e_zip_pyexiftool-master/exiftool.py",
+  "depth": 1,
+  "sourceModule": "EXPLODE_ZIP",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "META_HASH",
+    "SCAN_YARA",
+    "DISPOSITIONER"
+  ]
+}
+{
+  "uniqID": "",
+  "order": 17,
+  "rootUID": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "origRootUID": "",
+  "scanTime": 1444138616,
+  "objectHash": "87e5576de3005521fccfb5ce38a15c4c",
+  "parent": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "uuid": "fddaa22d-83c6-4967-9579-6f2d70af1ab2",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "87e5576de3005521fccfb5ce38a15c4c",
+        "SHA1": "0d1b661b5924b781d50ace03134981454129b59e",
+        "SHA512": "96462e5a45efb773e0c426366daf9d043032c3456bcd75d2e2b800326ce471e379dba7b8defdd70b42d45baec715dd57dc29f33a2494c1b8ac1b0411471c0533",
+        "SHA256": "b8b4c96f6b01a1292c023e70f0e1fd4b43776197b96acf3dd29e09e92ff399b8",
+        "ssdeep": "6:6v/lhP8Sy9tHttlNxGazgN+YLyUNRg2EM4yUKrdp:6v/7NmtHttl2azS+YhRg2EMzrz"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": "DISPOSITION_FILE (10)",
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 206,
+  "fileType": [],
+  "level": 2,
+  "filename": "e_zip_pyexiftool-master/test/skyblue.png",
+  "depth": 1,
+  "sourceModule": "EXPLODE_ZIP",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "META_HASH",
+    "SCAN_YARA",
+    "DISPOSITIONER"
+  ]
+}
+{
+  "uniqID": "",
+  "order": 2,
+  "rootUID": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "origRootUID": "",
+  "scanTime": 1444138616,
+  "objectHash": "de9683239ea83d4df5b57d1333d82616",
+  "parent": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "uuid": "27f85650-0b63-4520-8037-bfe141cbcbf9",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "de9683239ea83d4df5b57d1333d82616",
+        "SHA1": "2579bbfaa130da7bf73bfd38f28891cf9af054fe",
+        "SHA512": "dd2371a9ac78b113030027bed0c19bc5e92f930406f5a63f3e8617abda80f69fdee131452083e8521bb9a6a98f014dbd20fd115eacb0a8c42b30ca70fd41741c",
+        "SHA256": "40dbdeb205f45f777a1f4f06af644977da27c244793fb86b136ec727ca6372fb",
+        "ssdeep": "3:Fi6vNxsZXHiscWvn:pKSsRv"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": "DISPOSITION_FILE (10)",
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 41,
+  "fileType": [],
+  "level": 2,
+  "filename": "e_zip_pyexiftool-master/.gitignore",
+  "depth": 1,
+  "sourceModule": "EXPLODE_ZIP",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "SCAN_YARA",
+    "META_HASH",
+    "DISPOSITIONER"
+  ]
+}
+{
+  "uniqID": "",
+  "order": 8,
+  "rootUID": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "origRootUID": "",
+  "scanTime": 1444138616,
+  "objectHash": "23faceed49226ae9cc97fd2e3d57ce12",
+  "parent": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "uuid": "88826bfa-b0fd-48e6-b8d7-1e5c9e32fe27",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "23faceed49226ae9cc97fd2e3d57ce12",
+        "SHA1": "d54d8b9ae4e74c299de2a75dd686c2255538a75a",
+        "SHA512": "feddbb75a70c014603fe64306d88b50b8604e99f5ba4e37ef0f50c4d52c141c77d08ad284cf52171fdafea1c85b7ba5ddb87e7f0e6bb08b7e479de99f38baada",
+        "SHA256": "adef60aac2dd6bb6a514055a6cec27bebcd2f02848d2e4f15f5171cecbeac841",
+        "ssdeep": "3:K8:K8"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": "DISPOSITION_FILE (10)",
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 8,
+  "fileType": [],
+  "level": 2,
+  "filename": "e_zip_pyexiftool-master/doc/.gitignore",
+  "depth": 1,
+  "sourceModule": "EXPLODE_ZIP",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "META_HASH",
+    "SCAN_YARA",
+    "DISPOSITIONER"
+  ]
+}
+{
+  "uniqID": "",
+  "order": 5,
+  "rootUID": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "origRootUID": "",
+  "scanTime": 1444138616,
+  "objectHash": "6f3a944e7e2bcff40fd18bdc2870544e",
+  "parent": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "uuid": "cdcc9538-0896-481b-82c6-09cd27bb3fa1",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "6f3a944e7e2bcff40fd18bdc2870544e",
+        "SHA1": "861c940d581f638b63e97d04488545b85526a846",
+        "SHA512": "9f289ad0c4a2411f8fde125ce91432f59c549da8c4ecd881fabf5133bc271a9eb7647b40e2691f09908ba342d2348f644729fca38174cd20a86a6ae2876b0b4b",
+        "SHA256": "e522d9ad17348b9bc5195d5176ac585cee4e8fe553b4c5837eed361e7f9257c1",
+        "ssdeep": "3:KGfNgkh9UeBIZOAdkFmSXWRvn:KGfyqnIZKF54"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": "DISPOSITION_FILE (10)",
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 62,
+  "fileType": [],
+  "level": 2,
+  "filename": "e_zip_pyexiftool-master/MANIFEST.in",
+  "depth": 1,
+  "sourceModule": "EXPLODE_ZIP",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "META_HASH",
+    "SCAN_YARA",
+    "DISPOSITIONER"
+  ]
+}
+{
+  "uniqID": "",
+  "order": 18,
+  "rootUID": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "origRootUID": "",
+  "scanTime": 1444138616,
+  "objectHash": "ad783b544fce68d76f1fbbc625ee5318",
+  "parent": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "uuid": "e444e098-ae32-42de-85b5-feb0ae3fdb29",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "ad783b544fce68d76f1fbbc625ee5318",
+        "SHA1": "4e1c8f31e0a2f47ab4b503087741e07c0b2b1389",
+        "SHA512": "36757e25e19a3a4d6400a361d02468efa93db4fbe3a6307032f72e04e3d898b366986066c7453656ead6cf1400fb6fb2ea64280d3979873db082766e7af2b1aa",
+        "SHA256": "c4e7acf7a2cf2b2cbb17cbfc86edb8c0affa6cfdda79e382bac5b1618bbb28e1",
+        "ssdeep": "48:YuM1KGxrpf3tggmMMmrVAm4mslm2n/m/v/yYyIFIMsPdt2WIvaMS:q1KGxrpPt5vM+S7nt/mX/IPkvU"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": "DISPOSITION_FILE (10)",
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 3705,
+  "fileType": [],
+  "level": 2,
+  "filename": "e_zip_pyexiftool-master/test/test_exiftool.py",
+  "depth": 1,
+  "sourceModule": "EXPLODE_ZIP",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "META_HASH",
+    "SCAN_YARA",
+    "DISPOSITIONER"
+  ]
+}
+{
+  "uniqID": "",
+  "order": 4,
+  "rootUID": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "origRootUID": "",
+  "scanTime": 1444138616,
+  "objectHash": "d32239bcb673463ab874e80d47fae504",
+  "parent": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "uuid": "a6f61016-194c-49c8-81a5-39dc8e7765b4",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "d32239bcb673463ab874e80d47fae504",
+        "SHA1": "8624bcdae55baeef00cd11d5dfcfa60f68710a02",
+        "SHA512": "7633623b66b5e686bb94dd96a7cdb5a7e5ee00e87004fab416a5610d59c62badaf512a2e26e34e2455b7ed6b76690d2cd47464836d7d85d78b51d50f7e933d5c",
+        "SHA256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "ssdeep": "768:Mo1acy3LTB2VsrHG/OfvMmnBCtLmJ9A7D:Mhcycsrfrnoue"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": "DISPOSITION_FILE (10)",
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 35147,
+  "fileType": [],
+  "level": 2,
+  "filename": "e_zip_pyexiftool-master/COPYING.GPL",
+  "depth": 1,
+  "sourceModule": "EXPLODE_ZIP",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "META_HASH",
+    "SCAN_YARA",
+    "DISPOSITIONER"
+  ]
+}
+{
+  "uniqID": "",
+  "order": 13,
+  "rootUID": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "origRootUID": "",
+  "scanTime": 1444138616,
+  "objectHash": "0c1a3520572b0761bae0defc31b13e48",
+  "parent": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "uuid": "ffcdf81e-5f6c-403c-b2b7-d32336e3f0c1",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "0c1a3520572b0761bae0defc31b13e48",
+        "SHA1": "a292058d48d8a718f4c496b8e8c63ba446f94300",
+        "SHA512": "73a0bf3a71df23f02ae23a97e83deb7a898b4b6bd85a868ea3f85bed9395e9f962ebf961215d62e778f4b2902b05a400b8fb64d1c7342a8f01aff4f04f220385",
+        "SHA256": "a92f3e3eddd3fa13eb1f7f4bfcfdf3a0bc4ddd34724aab6aec7be67082307141",
+        "ssdeep": "24:nJ5gSX12iCU+EiyUVOk8wMpfjTKmKSsqQPX5FD50jLZft2LZfthLZftbLK:nE5iz+vyUjoRTK55w101/1ZLK"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": "DISPOSITION_FILE (10)",
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 1313,
+  "fileType": [],
+  "level": 2,
+  "filename": "e_zip_pyexiftool-master/setup.py",
+  "depth": 1,
+  "sourceModule": "EXPLODE_ZIP",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "META_HASH",
+    "SCAN_YARA",
+    "DISPOSITIONER"
+  ]
+}
+{
+  "uniqID": "",
+  "order": 6,
+  "rootUID": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "origRootUID": "",
+  "scanTime": 1444138616,
+  "objectHash": "d04361d5879159516358de8afae2dfc6",
+  "parent": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "uuid": "899e265b-e3c1-4902-9e6b-e8051d46d05d",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "d04361d5879159516358de8afae2dfc6",
+        "SHA1": "367d4d3402174f71860db4856f113ce0fc3fbf53",
+        "SHA512": "0cfba612bf1835241af2b494010bf939e57b401fe2ceb61f1f098dc45ef81595c831285298f3a02a78fca2527082baec4e93770658607c1175948b0a6882cfa2",
+        "SHA256": "f03d382bffda7718080c09994b40f75c73504e45a7d81e317f557a02c773ba79",
+        "ssdeep": "48:C2G4XfX1L+6GYlSwkCvmsXv8BdXhgtL0SQmL9KICtRXL5Ei3X1pNf+QyZf:CCPh+WlXlvFuyL0tmcDXL5EGzfS"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": "DISPOSITION_FILE (10)",
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 2274,
+  "fileType": [],
+  "level": 2,
+  "filename": "e_zip_pyexiftool-master/README.rst",
+  "depth": 1,
+  "sourceModule": "EXPLODE_ZIP",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "META_HASH",
+    "SCAN_YARA",
+    "DISPOSITIONER"
+  ]
+}
+{
+  "uniqID": "",
+  "order": 16,
+  "rootUID": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "origRootUID": "",
+  "scanTime": 1444138616,
+  "objectHash": "1409335271f77c6a85967e36146c36c6",
+  "parent": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "uuid": "498fde67-2f55-4945-ad94-66193d9ef7a3",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "1409335271f77c6a85967e36146c36c6",
+        "SHA1": "98254f985f491252c26176e527da4e330016d48f",
+        "SHA512": "56916987516bebe007f101c24ba4f6d4a26aff692af60cad985d472b422404fb294a67bc61d425bcf1c0275a256eaec3e3eec9fa098c948ff94c5b687e44dd3a",
+        "SHA256": "ca818da54a2b520a07437fe6e5f186a1d5f8d79433451f5fa4bfb224490a3ac3",
+        "ssdeep": "48:9LDgV3MPisLLJKn46PoMKyCi3otMq1oVGAVMrEi+Z2rcAXJeiRoX0:lU36TLJKnpPoMv13WMxGAMIATRoX0"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": "DISPOSITION_FILE (10)",
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 4949,
+  "fileType": [],
+  "level": 2,
+  "filename": "e_zip_pyexiftool-master/test/rose.jpg",
+  "depth": 1,
+  "sourceModule": "EXPLODE_ZIP",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "META_HASH",
+    "SCAN_YARA",
+    "DISPOSITIONER"
+  ]
+}
+{
+  "uniqID": "",
+  "order": 14,
+  "rootUID": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "origRootUID": "",
+  "scanTime": 1444138616,
+  "objectHash": "d41d8cd98f00b204e9800998ecf8427e",
+  "parent": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "uuid": "2a2b1632-b410-4821-acf1-573f8f517d53",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "SHA1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "SHA512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+        "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "ssdeep": "3::"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": "DISPOSITION_FILE (10)",
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 0,
+  "fileType": [],
+  "level": 2,
+  "filename": "e_zip_pyexiftool-master/test/",
+  "depth": 1,
+  "sourceModule": "EXPLODE_ZIP",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "META_HASH",
+    "SCAN_YARA",
+    "DISPOSITIONER"
+  ]
+}
+{
+  "uniqID": "",
+  "order": 7,
+  "rootUID": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "origRootUID": "",
+  "scanTime": 1444138616,
+  "objectHash": "d41d8cd98f00b204e9800998ecf8427e",
+  "parent": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "uuid": "cb7e697c-c44f-4101-8cb3-8460c7a2d4ef",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "SHA1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "SHA512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+        "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "ssdeep": "3::"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": "DISPOSITION_FILE (10)",
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 0,
+  "fileType": [],
+  "level": 2,
+  "filename": "e_zip_pyexiftool-master/doc/",
+  "depth": 1,
+  "sourceModule": "EXPLODE_ZIP",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "META_HASH",
+    "SCAN_YARA",
+    "DISPOSITIONER"
+  ]
+}
+{
+  "uniqID": "",
+  "order": 0,
+  "rootUID": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "origRootUID": "",
+  "scanTime": 1444138616,
+  "objectHash": "675004a69fbe8d28005423fff53b87eb",
+  "parent": "",
+  "uuid": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "675004a69fbe8d28005423fff53b87eb",
+        "SHA1": "a9bdff8db8470c994dccb8d37597b3a4e3102b12",
+        "SHA512": "66101cfbcd05bbf1b7974f8799212f4c17fe1ccb5ed45e80c7371f646e095dfd644ef59092168359e1fe78a5e8b696e54df2b8dabdcefac5df81c73ac75fb2c2",
+        "SHA256": "c243efbd226ad00333d03d16a39dc08ceb2ad277bd21b5247a2821156097debd",
+        "ssdeep": "768:aaz4OA1NUDudJ+RqfiYnP9YBP/uXo8SFWi4XWc6dcERCw:aazLAbUWJDnPKPJ/OqCw"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": [
+        "send_to_fluent (50)",
+        "DISPOSITION_FILE (10)"
+      ],
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)",
+        "type_is_zip (9)"
+      ]
+    },
+    "EXPLODE_ZIP": {
+      "Unzipped": 18,
+      "Total_Files": 18
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Deny",
+        "Input_Flags": [
+          "yr:suspicious_sig_1",
+          "yr:informational_sig_1"
+        ],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": [
+          "Deny",
+          "Alert"
+        ]
+      }
+    }
+  },
+  "objectSize": 30120,
+  "fileType": [
+    "zip"
+  ],
+  "level": 2,
+  "filename": "master.zip",
+  "depth": 0,
+  "sourceModule": "",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "SCAN_YARA",
+    "META_HASH",
+    "EXPLODE_ZIP",
+    "DISPOSITIONER",
+    "LOG_FLUENT"
+  ]
+}
+{
+  "uniqID": "",
+  "order": 3,
+  "rootUID": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "origRootUID": "",
+  "scanTime": 1444138616,
+  "objectHash": "8a5c8f21cbdb0ffc925b599c6174112c",
+  "parent": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "uuid": "7d0a4eeb-7668-4aab-a833-e76ee1d66182",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "8a5c8f21cbdb0ffc925b599c6174112c",
+        "SHA1": "5e49121d122eaa8d14a6b5ff55a56210c807e17e",
+        "SHA512": "b33a8f3e81159bd345550f74fd0d22514a7db3e84d38974606d9373b16332e232e72aa24c798bbbb76e08fb1205db687676ddbf47bac98cf30e92e5ae4fcd200",
+        "SHA256": "59836ab3a669bb4a6c3c3562dcd625e2c43b47ebb6cd665d0316e3c6be337c8a",
+        "ssdeep": "24:eUnooL+bO9FTI+JzFTzTNg53oBTPn96432s4EOkUJm3hyxtdfy33tGW+ZvTHv:YO9JnJzC53kP96432svt3hEtI33tG/VP"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": "DISPOSITION_FILE (10)",
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 1449,
+  "fileType": [],
+  "level": 2,
+  "filename": "e_zip_pyexiftool-master/COPYING.BSD",
+  "depth": 1,
+  "sourceModule": "EXPLODE_ZIP",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "SCAN_YARA",
+    "META_HASH",
+    "DISPOSITIONER"
+  ]
+}
+{
+  "uniqID": "",
+  "order": 15,
+  "rootUID": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "origRootUID": "",
+  "scanTime": 1444138616,
+  "objectHash": "97781d2954bbc2eebdc963de519fe2de",
+  "parent": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "uuid": "65616781-3c2f-4d7d-b666-243d587ab381",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "97781d2954bbc2eebdc963de519fe2de",
+        "SHA1": "cf12053424c6424239b2be611606585142816d88",
+        "SHA512": "93effb114ab9b9b67b2082abc7023d290c50e82dad11da28965c387a4640935d24cb6d91462f0b5a0ba9184a1d21e13851b23d5a145b826e3a4e9d9f287cab61",
+        "SHA256": "836cdb388117cf81e78d9fa2a141cca1b14b0179733322e710067749a1b16fe9",
+        "ssdeep": "3:SfPIAFy6WIXtH0EEvn:SS9SH9Ev"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": "DISPOSITION_FILE (10)",
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 47,
+  "fileType": [],
+  "level": 2,
+  "filename": "e_zip_pyexiftool-master/test/__init__.py",
+  "depth": 1,
+  "sourceModule": "EXPLODE_ZIP",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "META_HASH",
+    "SCAN_YARA",
+    "DISPOSITIONER"
+  ]
+}
+{
+  "uniqID": "",
+  "order": 9,
+  "rootUID": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "origRootUID": "",
+  "scanTime": 1444138616,
+  "objectHash": "54499361d062142896dbb03eec0ef752",
+  "parent": "e1cf22bd-d962-4a55-beaa-0916ba395057",
+  "uuid": "a47c62ca-b199-41ce-982d-0e70b26e96b6",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "54499361d062142896dbb03eec0ef752",
+        "SHA1": "aebf44e13031897b37e6d64855e76e366e93f243",
+        "SHA512": "a2c8ff3b0dbb654f89ef9ac4cfc228414d0e0863298b8b6b3b65b9d46f8475fa5813f983a3db0fb3b10708085368e615a8224b38b22beff1976178490b684849",
+        "SHA256": "eb7837c98c98c4170170ee47fb77772760d9113eee447fe7b00c1def958a8d9b",
+        "ssdeep": "96:eS1BcHmlgTXtTkUzOeOHwbkuX566jzjjtXMonUH3UXfUiduCDa5cbFjFkBB/njkk:HJgTXxkUzOHwLPWYGXLyC"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": "DISPOSITION_FILE (10)",
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 5580,
+  "fileType": [],
+  "level": 2,
+  "filename": "e_zip_pyexiftool-master/doc/Makefile",
+  "depth": 1,
+  "sourceModule": "EXPLODE_ZIP",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "META_HASH",
+    "SCAN_YARA",
+    "DISPOSITIONER"
+  ]
+}

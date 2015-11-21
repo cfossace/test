@@ -1,0 +1,55 @@
+{
+  "uniqID": "",
+  "order": 0,
+  "rootUID": "081fa1ec-2c45-4f6a-a661-c9be8e08fba3",
+  "origRootUID": "",
+  "scanTime": 1446427507,
+  "objectHash": "b61964305851a7ab4179067c231b4d97",
+  "parent": "",
+  "uuid": "081fa1ec-2c45-4f6a-a661-c9be8e08fba3",
+  "contentType": [],
+  "ephID": "",
+  "moduleMetadata": {
+    "META_HASH": {
+      "HASHES": {
+        "md5": "b61964305851a7ab4179067c231b4d97",
+        "SHA1": "4fd9a444aa38e874b0d81289f2569e107349cbce",
+        "SHA512": "69d55495b7d59d72d32a07755a39197617927248edc3b72fb476f3ff3d05bd33c967928acf05df93897aedd58c75064694e6bc7a9b0a6aa618a5987ffadfed2c",
+        "SHA256": "0493c7167ae07704ed41fe4d43333165f3167aca8547b6f1d2c67592eccc6fa2",
+        "ssdeep": "3:UegAql+3m/a:UvAem"
+      }
+    },
+    "DISPATCH": {
+      "Conditional Rules": [
+        "send_to_fluent (50)",
+        "DISPOSITION_FILE (10)"
+      ],
+      "Rules": [
+        "scan_yara (9)",
+        "meta_hash (9)"
+      ]
+    },
+    "DISPOSITIONER": {
+      "Disposition": {
+        "Result": "Accept",
+        "Input_Flags": [],
+        "Disposition_File": "etc/modules/disposition.yara",
+        "Matches": []
+      }
+    }
+  },
+  "objectSize": 29,
+  "fileType": [],
+  "level": 2,
+  "filename": "/home/wildcat/Lockheed/laikaboss/malware/Lab11-02.ini",
+  "depth": 0,
+  "sourceModule": "",
+  "flags": [],
+  "source": "CLI",
+  "scanModules": [
+    "SCAN_YARA",
+    "META_HASH",
+    "DISPOSITIONER",
+    "LOG_FLUENT"
+  ]
+}
