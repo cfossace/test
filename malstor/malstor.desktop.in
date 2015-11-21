@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=Malstor
+_Comment=Malstor application
+Categories=GNOME;Utility;
+Exec=malstor
+Icon=malstor
+Terminal=false
+Type=Application
